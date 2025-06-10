@@ -11,12 +11,13 @@ This project uses **DBSCAN clustering** to recommend supplement stores based on 
 - **Jupyter Notebook** (`main.ipynb` - all core logic)  
 
 ## 📂 Project Structure
-📁 Supplement-Store-Recommendation │── 📁 pyfiles                # Python scripts for clustering & mapping
-│   ├── clustering.py         # DBSCAN clustering logic
-│   ├── gym_location.py       # Gym data processing
-│   ├── mapping.py            # Map generation
-│   ├── store.py              # Supplement store data handling
-│   ├── visualize.py          # Visualization tools
-│── 📁 datasets               # CSV & JSON files with location data
-│── main.ipynb                # Jupyter Notebook with full project workflow
-│── smart_recommendation_map.html # Final interactive map
+Supplement-Store-Recommendation  
+│── pyfiles  
+│   ├── clustering.py  # **DBSCAN clustering logic**  
+│   ├── gym_location.py  # **Gym data processing**  
+│   ├── mapping.py  # **Map generation**  
+│   ├── store.py  # **Supplement store data handling**  
+│   ├── visualize.py  # **Visualization tools**  
+│── datasets  # **CSV & JSON files with location data**  
+│── main.ipynb  #** Jupyter Notebook with full project workflow**  
+│── smart_recommendation_map.html  # **Final interactive map**  
