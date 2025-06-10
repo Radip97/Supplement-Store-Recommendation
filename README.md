@@ -19,5 +19,5 @@ Supplement-Store-Recommendation
 │   ├── store.py  # **Supplement store data handling**  
 │   ├── visualize.py  # **Visualization tools**  
 │── datasets  # **CSV & JSON files with location data**  
-│── main.ipynb  #** Jupyter Notebook with full project workflow**  
+│── main.ipynb  # **Jupyter Notebook with full project workflow**  
 │── smart_recommendation_map.html  # **Final interactive map**  
