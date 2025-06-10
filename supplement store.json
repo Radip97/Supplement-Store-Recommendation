@@ -1,0 +1,343 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-24T02:06:36Z",
+    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2828090102,
+      "lat": 30.3088874,
+      "lon": -89.8262857,
+      "tags": {
+        "brand": "The Vitamin Shoppe",
+        "brand:wikidata": "Q7772938",
+        "name": "The Vitamin Shoppe",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5286386879,
+      "lat": 29.9457198,
+      "lon": -90.0621971,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "level": "1",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5813812100,
+      "lat": 30.3224747,
+      "lon": -92.0301016,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326053173,
+      "lat": 30.0071192,
+      "lon": -90.2264114,
+      "tags": {
+        "addr:housenumber": "8855",
+        "addr:street": "Veterans Memorial Boulevard",
+        "addr:unit": "D",
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6593685685,
+      "lat": 30.0047868,
+      "lon": -90.1578286,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7152635186,
+      "lat": 30.1978357,
+      "lon": -93.2253069,
+      "tags": {
+        "addr:street": "West Prien Lake Road",
+        "brand": "The Vitamin Shoppe",
+        "brand:wikidata": "Q7772938",
+        "name": "The Vitamin Shoppe",
+        "shop": "nutrition_supplements",
+        "website": "http://vitaminshoppe.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7447819393,
+      "lat": 29.9615511,
+      "lon": -90.1849672,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7450087877,
+      "lat": 30.0066211,
+      "lon": -90.2124265,
+      "tags": {
+        "name": "The Vitamin Store",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8067327052,
+      "lat": 29.9979169,
+      "lon": -90.218632,
+      "tags": {
+        "name": "Eastbank Nutrition",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8921301821,
+      "lat": 30.176079,
+      "lon": -92.0773184,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "5702",
+        "addr:postcode": "70503",
+        "addr:state": "LA",
+        "addr:street": "Johnston Street",
+        "addr:unit": "100",
+        "brand": "The Vitamin Shoppe",
+        "brand:wikidata": "Q7772938",
+        "name": "The Vitamin Shoppe",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9041510415,
+      "lat": 31.2776131,
+      "lon": -92.4616173,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9703975924,
+      "lat": 32.5238462,
+      "lon": -92.1036165,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "1126",
+        "addr:postcode": "71201",
+        "addr:state": "LA",
+        "addr:street": "Oliver Road",
+        "name": "Heavyweight Supplements",
+        "opening_hours": "Mo-Th 10:00-19:00, Fr 10:00-18:00, Sa 10:00-17:00",
+        "phone": "(318) 807-0835",
+        "shop": "nutrition_supplements",
+        "website": "https://www.heavyweightsupplements.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10909367577,
+      "lat": 30.3873588,
+      "lon": -90.0811847,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10944456476,
+      "lat": 30.2648022,
+      "lon": -91.9936873,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11057989583,
+      "lat": 31.0768435,
+      "lon": -93.272404,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/CajunNaturalAlternatives",
+        "contact:phone": "+1 337 404 4061",
+        "contact:website": "https://order.online/store/cajun-natural-alternatives-leesville-23601307/?hideModal=true&pickup=true",
+        "description": "Health & Medical, Health Food Stores, Herbs & Spices.",
+        "description:fr": "Magasins d'aliments naturels, herbes et épices, santé et médecine.",
+        "name": "Cajun Natural Alternatives",
+        "opening_hours": "Mo-Sa 09:30-17:30",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11112528630,
+      "lat": 30.3220744,
+      "lon": -90.937348,
+      "tags": {
+        "name": "Galvez Nutrition",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11126900770,
+      "lat": 32.4412423,
+      "lon": -93.7164714,
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11990961289,
+      "lat": 30.1941471,
+      "lon": -93.2485713,
+      "tags": {
+        "name": "5 Star Nutrition",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630324363,
+      "center": {
+        "lat": 29.9840205,
+        "lon": -91.8211486
+      },
+      "nodes": [
+        5427609767,
+        5952193681,
+        5952193682,
+        5952193683,
+        5427609767
+      ],
+      "tags": {
+        "brand": "GNC",
+        "brand:wikidata": "Q4808595",
+        "building": "yes",
+        "name": "GNC",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "way",
+      "id": 670811343,
+      "center": {
+        "lat": 30.0051359,
+        "lon": -90.1752391
+      },
+      "nodes": [
+        6281851841,
+        6281851838,
+        6281851839,
+        6281851840,
+        6281851841
+      ],
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "4015",
+        "addr:postcode": "70002",
+        "addr:street": "Veterans Memorial Boulevard",
+        "brand": "The Vitamin Shoppe",
+        "brand:wikidata": "Q7772938",
+        "brand:wikipedia": "en:The Vitamin Shoppe",
+        "building": "yes",
+        "name": "The Vitamin Shoppe",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "way",
+      "id": 739437890,
+      "center": {
+        "lat": 30.3787965,
+        "lon": -91.065988
+      },
+      "nodes": [
+        6923477765,
+        6923477766,
+        6923477767,
+        6923477768,
+        6923477769,
+        6923477770,
+        6923477765
+      ],
+      "tags": {
+        "brand": "The Vitamin Shoppe",
+        "brand:wikidata": "Q7772938",
+        "brand:wikipedia": "en:The Vitamin Shoppe",
+        "building": "yes",
+        "name": "The Vitamin Shoppe",
+        "shop": "nutrition_supplements"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1346058322,
+      "center": {
+        "lat": 32.5341276,
+        "lon": -93.7060628
+      },
+      "nodes": [
+        12450096369,
+        12450096371,
+        12450096372,
+        12450096370,
+        12450096369
+      ],
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "2114",
+        "addr:postcode": "71111-3859",
+        "addr:state": "LA",
+        "addr:street": "Airline Drive",
+        "addr:unit": "Ste D",
+        "building": "retail",
+        "name": "Ironworks Sports Nutrition",
+        "opening_hours": "Mo-Sa 10:00-19:00, Su 13:00-17:00",
+        "phone": "+1 (318) 588-8950",
+        "shop": "nutrition_supplements"
+      }
+    }
+  ]
+}

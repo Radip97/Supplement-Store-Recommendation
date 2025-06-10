@@ -1,0 +1,3508 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.5 1bd436f1",
+  "osm3s": {
+    "timestamp_osm_base": "2025-02-24T02:26:10Z",
+    "timestamp_areas_base": "2024-12-31T00:49:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 577574395,
+      "lat": 31.3350379,
+      "lon": -92.3880963,
+      "tags": {
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "fixme:atp": "check if location still exists; no corresponding ATP location found",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "sport": "gymnastics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2590574372,
+      "lat": 30.110556,
+      "lon": -92.0209518,
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2699177796,
+      "lat": 30.4799202,
+      "lon": -90.864021,
+      "tags": {
+        "addr:city": "Walker",
+        "addr:housenumber": "28799",
+        "addr:postcode": "70785",
+        "addr:state": "LA",
+        "addr:street": "Walker South Road",
+        "branch": "Walker",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-664-4700",
+        "ref": "346",
+        "website": "https://www.anytimefitness.com/gyms/346/walker-la-70785/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2699178480,
+      "lat": 30.4811384,
+      "lon": -90.8641712,
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3339973631,
+      "lat": 29.9492553,
+      "lon": -90.1323064,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "8338",
+        "addr:postcode": "70118",
+        "addr:state": "LA",
+        "addr:street": "Oak Street",
+        "leisure": "fitness_centre",
+        "name": "Yes, Yoga",
+        "opening_hours": "Mo 06:00-21:00; Tu 08:30-21:00; We 06:00-21:00; Th 08:30-21:00; Fr 06:00-19:00; Sa 08:30-16:30; Su 08:30-17:00",
+        "phone": "504-605-3347",
+        "sport": "yoga",
+        "website": "https://yesyoganola.co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3340500194,
+      "lat": 29.9595335,
+      "lon": -90.1124042,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "7800",
+        "addr:postcode": "70125",
+        "addr:state": "LA",
+        "addr:street": "Earhart Boulevard",
+        "email": "info@crescentcitygymnastics.com",
+        "leisure": "fitness_centre",
+        "name": "Crescent City Gymnastics",
+        "opening_hours": "Mo-Th 15:30-20:00; Fr 15:30-19:00; Sa 09:00-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "504-861-1740",
+        "sport": "gymnastics",
+        "website": "https://www.crescentcitygymnastics.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3340505353,
+      "lat": 30.1060356,
+      "lon": -92.0161941,
+      "tags": {
+        "addr:city": "Youngsville",
+        "addr:housenumber": "1700",
+        "addr:postcode": "70592",
+        "addr:state": "LA",
+        "addr:street": "Chemin Metaire Parkway",
+        "addr:unit": "603",
+        "branch": "Youngsville",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 337-857-5060",
+        "ref": "601",
+        "sport": "multi",
+        "website": "https://www.anytimefitness.com/gyms/601/youngsville-la-70592/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3344262924,
+      "lat": 29.9351985,
+      "lon": -90.1052252,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5007",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Freret Street",
+        "leisure": "fitness_centre",
+        "name": "Body Shoppe",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "phone": "+15047660062",
+        "website": "https://bodyshoppenola.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3344264299,
+      "lat": 29.9350683,
+      "lon": -90.1087653,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5007",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Freret Street",
+        "email": "smile@bodyshoppenola.com",
+        "leisure": "fitness_centre",
+        "name": "Body Shoppe",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "504-766-0062",
+        "sport": "fitness;pilates;dance",
+        "website": "https://www.nolabodyshoppe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3345897724,
+      "lat": 29.9217611,
+      "lon": -90.1204788,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5924",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Magazine Street",
+        "leisure": "fitness_centre",
+        "name": "City Surf",
+        "opening_hours": "Mo-Th 06:00-07:00,17:00-19:00; Fr 06:00-07:00; Sa-Su 09:30-11:00",
+        "phone": "504-281-4174",
+        "sport": "fitness;exercise",
+        "website": "https://www.citysurffitness.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3346684575,
+      "lat": 29.9207143,
+      "lon": -90.1041853,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "4609",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Magazine Street",
+        "email": "info@freetobepoweryoga.com",
+        "leisure": "fitness_centre",
+        "name": "free to be Power Yoga",
+        "phone": "504-407-0819",
+        "sport": "yoga",
+        "website": "https://freetobepoweryoga.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3446982212,
+      "lat": 30.3090692,
+      "lon": -89.7469715,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:housenumber": "851",
+        "addr:postcode": "70458",
+        "addr:state": "LA",
+        "addr:street": "Brownswitch Road",
+        "leisure": "fitness_centre",
+        "name": "Club4 Fitness",
+        "opening_hours": "Mo-Th 05:00-23:00; Fr 05:00-21:00; Sa 07:00-20:00; Su 08:00-20:00",
+        "phone": "+1 985-771-5920",
+        "website": "https://www.club4fitness.com/location/slidell-la/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4108850788,
+      "lat": 29.9686937,
+      "lon": -90.0526382,
+      "tags": {
+        "addr:housenumber": "2360",
+        "addr:street": "Saint Claude Avenue",
+        "check_date": "2023-02-10",
+        "leisure": "fitness_centre",
+        "name": "New Orleans Boulder Lounge",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4576630500,
+      "lat": 30.0051253,
+      "lon": -90.1972429,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "5200",
+        "addr:postcode": "70006",
+        "addr:state": "LA",
+        "addr:street": "Veterans Highway",
+        "addr:unit": "101",
+        "branch": "Metairie",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 504-218-4814",
+        "ref": "160",
+        "website": "https://www.anytimefitness.com/gyms/160/metairie-la-70006/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4753868734,
+      "lat": 29.9279765,
+      "lon": -90.0686763,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "1811",
+        "addr:postcode": "70130",
+        "addr:state": "LA",
+        "addr:street": "Rousseau Street",
+        "branch": "New Orleans (Garden District)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name": "Anytime Fitness",
+        "phone": "+1 504-524-8006",
+        "ref": "2595",
+        "website": "https://www.anytimefitness.com/gyms/2595/new-orleans-la-70130/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4929692747,
+      "lat": 32.5166459,
+      "lon": -92.1565715,
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "3215",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Cypress Street",
+        "leisure": "fitness_centre",
+        "name": "The Wellness Center",
+        "opening_hours": "Mo-Th 04:30-21:00, Fr 04:30-20:00, Sa 07:00-18:00, Su 12:00-17:00",
+        "phone": "+1-318-329-9100",
+        "sport": "swimming;fitness;exercise;yoga",
+        "website": "http://www.wmwellnesscenter.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5070462709,
+      "lat": 29.9041259,
+      "lon": -90.0533238,
+      "tags": {
+        "brand": "Jazzercise",
+        "brand:wikidata": "Q6168434",
+        "leisure": "fitness_centre",
+        "name": "Jazzercise",
+        "sport": "fitness;dance",
+        "website": "https://jcls.jazzercise.com/facility/jazzercise-gretna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5143754134,
+      "lat": 32.6119825,
+      "lon": -92.0623117,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "7595",
+        "addr:state": "LA",
+        "addr:street": "Hwy 165",
+        "leisure": "fitness_centre",
+        "name": "Trinity Cheer Athletics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5302934690,
+      "lat": 30.0624504,
+      "lon": -90.6975501,
+      "tags": {
+        "addr:city": "Gramercy",
+        "addr:housenumber": "1732",
+        "addr:postcode": "70052",
+        "addr:state": "LA",
+        "addr:street": "Deroche Circle",
+        "branch": "Gramercy",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-869-3484",
+        "ref": "1859",
+        "website": "https://www.anytimefitness.com/gyms/1859/gramercy-la-70052/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5343326760,
+      "lat": 30.3193812,
+      "lon": -90.9791859,
+      "tags": {
+        "brand": "Gold's Gym",
+        "brand:wikidata": "Q1536234",
+        "leisure": "fitness_centre",
+        "name": "Gold's Gym"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5557766560,
+      "lat": 30.4608169,
+      "lon": -91.0495587,
+      "tags": {
+        "addr:housenumber": "12021",
+        "addr:street": "Florida Boulevard",
+        "leisure": "fitness_centre",
+        "name": "Beat-2-Sleep",
+        "opening_hours": "Mo-Fr 10:00-20:00",
+        "sport": "boxing",
+        "website": "https://www.facebook.com/Beat-2-Sleep-166742790834/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6065095331,
+      "lat": 29.9605539,
+      "lon": -90.1871682,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Oschner Fitness Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6157560887,
+      "lat": 30.3616104,
+      "lon": -91.0036433,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "17002",
+        "addr:postcode": "70817",
+        "addr:state": "LA",
+        "addr:street": "Jefferson Highway",
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness",
+        "opening_hours": "Mo-We 10:00-18:00, Th 13:00-17:00, Fr 10:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6157718082,
+      "lat": 30.3959314,
+      "lon": -91.1585338,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "257",
+        "addr:postcode": "70808",
+        "addr:state": "LA",
+        "addr:street": "Lee Drive",
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "email": "batonrouge3@snapfitness.com",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness",
+        "opening_hours": "24/7",
+        "phone": "225-615-7936",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6199857274,
+      "lat": 29.964225,
+      "lon": -90.1861292,
+      "tags": {
+        "addr:housenumber": "5171",
+        "addr:postcode": "70123",
+        "addr:street": "Citrus Boulevard",
+        "addr:unit": "2020",
+        "leisure": "fitness_centre",
+        "name": "Hour Blast"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6243475889,
+      "lat": 29.8013168,
+      "lon": -90.8198265,
+      "tags": {
+        "addr:city": "Thibodaux",
+        "addr:housenumber": "127",
+        "addr:postcode": "70301",
+        "addr:state": "LA",
+        "addr:street": "Laura Drive",
+        "branch": "Thibodaux",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 985-447-7770",
+        "ref": "241",
+        "sport": "fitness",
+        "website": "https://www.anytimefitness.com/gyms/241/thibodaux-la-70301/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6326053169,
+      "lat": 30.0070739,
+      "lon": -90.2257682,
+      "tags": {
+        "addr:housenumber": "8847",
+        "addr:street": "Veterans Memorial Boulevard",
+        "addr:unit": "J",
+        "brand": "Jazzercise",
+        "brand:wikidata": "Q6168434",
+        "leisure": "fitness_centre",
+        "name": "Jazzercise"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6648910375,
+      "lat": 30.283066,
+      "lon": -90.922149,
+      "tags": {
+        "addr:city": "Gonzales",
+        "addr:housenumber": "14505",
+        "addr:postcode": "70737",
+        "addr:state": "LA",
+        "addr:street": "LA-44",
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1-225-622-9999",
+        "website": "https://www.snapfitness.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6697436559,
+      "lat": 29.9347333,
+      "lon": -90.1057787,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "4600",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Freret Street",
+        "branch": "New Orleans (Freret Street)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 504-899-2111",
+        "ref": "2440",
+        "sport": "fitness",
+        "website": "https://www.anytimefitness.com/gyms/2440/New-Orleans-LA-70115/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6750520082,
+      "lat": 29.9162424,
+      "lon": -90.1127091,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5300",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Tchoupitoulas Street",
+        "brand": "Orangetheory Fitness",
+        "brand:wikidata": "Q25005163",
+        "leisure": "fitness_centre",
+        "name": "Orangetheory Fitness",
+        "phone": "+1 504-308-1232",
+        "ref": "1971",
+        "sport": "crossfit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6816498679,
+      "lat": 30.0036094,
+      "lon": -90.1705698,
+      "tags": {
+        "addr:housenumber": "3848",
+        "addr:street": "Veterans Memorial Boulevard",
+        "addr:unit": "203",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "name": "Yoga Lightspace",
+        "sport": "yoga",
+        "website": "https://www.yogalightspace.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6816498723,
+      "lat": 30.003324,
+      "lon": -90.1690107,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "HotWorx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6904060281,
+      "lat": 29.944452,
+      "lon": -90.1846243,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Triumph Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6993639197,
+      "lat": 30.0227276,
+      "lon": -90.2546107,
+      "tags": {
+        "addr:city": "Kenner",
+        "addr:housenumber": "1000",
+        "addr:postcode": "70065",
+        "addr:state": "LA",
+        "addr:street": "West Esplanade Avenue",
+        "leisure": "fitness_centre",
+        "name": "Club 4 Fitness",
+        "phone": "+1-504-264-6180",
+        "website": "https://www.club4fitness.com/location/kenner/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6993639200,
+      "lat": 30.021344,
+      "lon": -90.2555644,
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7175548613,
+      "lat": 30.0275948,
+      "lon": -89.9938332,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7221468901,
+      "lat": 30.0119068,
+      "lon": -90.1584253,
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7221468910,
+      "lat": 30.0130949,
+      "lon": -90.1582448,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Ascension Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7259215915,
+      "lat": 30.0159778,
+      "lon": -90.1901932,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Champs Boxing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7416156875,
+      "lat": 30.3696963,
+      "lon": -90.0721682,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Innovative Boxing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7447521832,
+      "lat": 29.9794566,
+      "lon": -90.1566,
+      "tags": {
+        "addr:housenumber": "616",
+        "addr:street": "North Causeway Boulevard",
+        "leisure": "fitness_centre",
+        "name": "Authentic Strength & Performance Institute",
+        "phone": "1-504-304-4331"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7450087868,
+      "lat": 30.006638,
+      "lon": -90.1963809,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Title Boxing Club",
+        "sport": "boxing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7728804808,
+      "lat": 30.3563433,
+      "lon": -90.9926948,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "18181",
+        "addr:postcode": "70817",
+        "addr:state": "LA",
+        "addr:street": "Jefferson Highway",
+        "addr:unit": "105",
+        "leisure": "fitness_centre",
+        "name": "Hyper Fitness",
+        "opening_hours": "24/7",
+        "phone": "(225)773-4383",
+        "sport": "fitness",
+        "website": "https://www.facebook.com/HyperFitnessbr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7754008438,
+      "lat": 30.3391109,
+      "lon": -90.9885756,
+      "tags": {
+        "addr:city": "Prairieville",
+        "addr:country": "US",
+        "addr:housenumber": "17900",
+        "addr:postcode": "70769",
+        "addr:state": "LA",
+        "addr:street": "Airline Highway",
+        "addr:unit": "A",
+        "branch": "Prairieville",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-744-3002",
+        "ref": "136",
+        "website": "https://www.anytimefitness.com/gyms/136/prairieville-la-70769/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7754918926,
+      "lat": 30.3391941,
+      "lon": -90.9887873,
+      "tags": {
+        "addr:city": "Prairieville",
+        "addr:housenumber": "17900",
+        "addr:postcode": "70769",
+        "addr:state": "LA",
+        "addr:street": "Airline Highway",
+        "addr:unit": "B",
+        "leisure": "fitness_centre",
+        "name": "Barre Studio",
+        "phone": "225-931-4224",
+        "website": "https://www.facebook.com/BodySculptBarreStudio/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7762926896,
+      "lat": 30.3276603,
+      "lon": -90.9808697,
+      "tags": {
+        "addr:city": "Prairieville",
+        "addr:housenumber": "17424",
+        "addr:postcode": "70769",
+        "addr:state": "LA",
+        "addr:street": "Airline Highway",
+        "addr:unit": "8",
+        "brand": "Jazzercise",
+        "brand:wikidata": "Q6168434",
+        "leisure": "fitness_centre",
+        "name": "Jazzercise"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7824280074,
+      "lat": 30.4537058,
+      "lon": -91.079719,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7824280082,
+      "lat": 30.4326732,
+      "lon": -91.1146174,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "2373",
+        "addr:postcode": "70806",
+        "addr:state": "LA",
+        "addr:street": "Towne Center Boulevard",
+        "addr:unit": "710",
+        "brand": "Orangetheory Fitness",
+        "brand:wikidata": "Q25005163",
+        "leisure": "fitness_centre",
+        "name": "Orangetheory Fitness",
+        "phone": "+1 225-424-5000",
+        "ref": "2085"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7824280083,
+      "lat": 30.4333782,
+      "lon": -91.1123191,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "7350",
+        "addr:postcode": "70806",
+        "addr:state": "LA",
+        "addr:street": "Jefferson Highway",
+        "addr:unit": "470",
+        "branch": "Baton Rouge (Jefferson)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-930-9988",
+        "ref": "161",
+        "website": "https://www.anytimefitness.com/gyms/161/baton-rouge-la-70806/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8066935902,
+      "lat": 30.0182679,
+      "lon": -90.232412,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "The Zoo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8067276639,
+      "lat": 30.0372336,
+      "lon": -90.2391246,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8456203815,
+      "lat": 30.3997421,
+      "lon": -91.1154996,
+      "tags": {
+        "addr:housenumber": "7069",
+        "addr:street": "Perkins Road",
+        "leisure": "fitness_centre",
+        "name": "Spectrum Fitness",
+        "phone": "225-769-8000",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8519170016,
+      "lat": 29.9073508,
+      "lon": -90.3635423,
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8521527879,
+      "lat": 29.9695543,
+      "lon": -90.3767917,
+      "tags": {
+        "addr:city": "Destrehan",
+        "addr:housenumber": "1955",
+        "addr:postcode": "70047",
+        "addr:state": "LA",
+        "addr:street": "Ormond Boulevard",
+        "addr:unit": "F",
+        "branch": "Destrehan",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 985-307-1425",
+        "ref": "2279",
+        "website": "https://www.anytimefitness.com/gyms/2279/destrehan-la-70047/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8521527902,
+      "lat": 29.9862413,
+      "lon": -90.3641564,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Pulse Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8838028503,
+      "lat": 29.9854227,
+      "lon": -90.1034204,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Fitness Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8889255290,
+      "lat": 29.9749963,
+      "lon": -90.1463749,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Premier Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8889255333,
+      "lat": 29.975163,
+      "lon": -90.1525662,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8890839934,
+      "lat": 29.9875343,
+      "lon": -90.1300532,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Pilates Loft",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8890839937,
+      "lat": 29.9877216,
+      "lon": -90.1301373,
+      "tags": {
+        "addr:housenumber": "105",
+        "addr:street": "Focis Street",
+        "leisure": "fitness_centre",
+        "name": "Hour Blast",
+        "website": "https://hourblast.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8919731201,
+      "lat": 30.0074432,
+      "lon": -90.044642,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Seminary Gymnasium"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8951632956,
+      "lat": 32.5046791,
+      "lon": -92.1602713,
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "115",
+        "addr:postcode": "71292",
+        "addr:state": "LA",
+        "addr:street": "Constitution Drive",
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness",
+        "opening_hours": "Mo-Fr 05:00-22:00, Sa-Su 07:00-19:00",
+        "phone": "318-388-6000"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8958716276,
+      "lat": 30.3620683,
+      "lon": -91.0124751,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "14650",
+        "addr:postcode": "70817",
+        "addr:state": "LA",
+        "addr:street": "Village Market Street",
+        "addr:unit": "103",
+        "brand": "Orangetheory Fitness",
+        "brand:wikidata": "Q25005163",
+        "leisure": "fitness_centre",
+        "name": "Orangetheory Fitness",
+        "phone": "+1 225-412-0455",
+        "ref": "2261"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9102574930,
+      "lat": 32.459695,
+      "lon": -91.7609627,
+      "tags": {
+        "addr:city": "Rayville",
+        "addr:housenumber": "103",
+        "addr:postcode": "71269",
+        "addr:state": "LA",
+        "addr:street": "Jasper Street",
+        "branch": "Rayville",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 318-728-8616",
+        "ref": "2556",
+        "website": "https://www.anytimefitness.com/gyms/2556/rayville-la-71269/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9106205406,
+      "lat": 30.3816427,
+      "lon": -91.0980052,
+      "tags": {
+        "addr:housenumber": "7556",
+        "addr:street": "Bluebonnet Boulevard",
+        "leisure": "fitness_centre",
+        "name": "Regymen Fitness",
+        "phone": "225 300 8095",
+        "sport": "exercise;fitness",
+        "website": "https://regymenfitness.com/bluebonnet/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9118885779,
+      "lat": 30.378631,
+      "lon": -91.0956946,
+      "tags": {
+        "addr:housenumber": "10000",
+        "addr:street": "Perkins Rowe",
+        "addr:unit": "100",
+        "leisure": "fitness_centre",
+        "name": "Esporta Fitness",
+        "phone": "225 663 7969",
+        "sport": "fitness",
+        "website": "https://www.esportafitness.com/Pages/clubhome.aspx?clubid=1132"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9265717783,
+      "lat": 30.3738297,
+      "lon": -91.088528,
+      "tags": {
+        "addr:housenumber": "8200",
+        "addr:unit": "2A",
+        "email": "info@evolvestudiobr.com",
+        "leisure": "fitness_centre",
+        "name": "Evolve Studio",
+        "phone": "225 394 9417",
+        "sport": "fitness",
+        "website": "https://www.evolvestudiosla.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9701322170,
+      "lat": 32.523962,
+      "lon": -92.1014989,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2299",
+        "addr:postcode": "71201",
+        "addr:state": "LA",
+        "addr:street": "Louisville Avenue",
+        "leisure": "fitness_centre",
+        "name": "Moore Health & Fitness",
+        "opening_hours": "Mo-Fr 04:00-21:00, Sa 06:00-18:00, Su 12:00-18:00",
+        "phone": "(318) 324-9095",
+        "website": "https://www.moorefitnessonline.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9711436107,
+      "lat": 32.5358842,
+      "lon": -92.1082779,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2118",
+        "addr:postcode": "71201",
+        "addr:state": "LA",
+        "addr:street": "Justice Street",
+        "leisure": "fitness_centre",
+        "name": "The Pilates Room",
+        "phone": "(985) 414-3929",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10198567886,
+      "lat": 29.9216496,
+      "lon": -90.0162909,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "My Fitness Coach"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10566132238,
+      "lat": 29.9821123,
+      "lon": -90.2121984,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "701",
+        "addr:postcode": "70005",
+        "addr:street": "David Drive",
+        "check_date": "2023-01-18",
+        "currency:XBT": "yes",
+        "email": "julianraderman@fitnessgurunola.com",
+        "leisure": "fitness_centre",
+        "name": "Fitness Guru NOLA",
+        "note": "Private Gym by appointment only",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "914-357-1672",
+        "website": "https://fitnessgurunola.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10911911941,
+      "lat": 30.2983312,
+      "lon": -89.7584738,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:housenumber": "544",
+        "addr:postcode": "70458",
+        "addr:state": "LA",
+        "addr:street": "Robert Boulevard",
+        "branch": "Slidell",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 985-288-5748",
+        "ref": "4842",
+        "website": "https://www.anytimefitness.com/gyms/4842/slidell-la-70458/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10913753520,
+      "lat": 30.3755998,
+      "lon": -90.0538485,
+      "tags": {
+        "addr:city": "Mandeville",
+        "addr:housenumber": "1705",
+        "addr:postcode": "70448",
+        "addr:state": "LA",
+        "addr:street": "Highway 59",
+        "branch": "Mandeville (1705 Highway 59)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 985-674-3100",
+        "ref": "61",
+        "website": "https://www.anytimefitness.com/gyms/61/mandeville-la-70448/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10914805116,
+      "lat": 30.6264864,
+      "lon": -90.1874089,
+      "tags": {
+        "addr:city": "Folsom",
+        "addr:housenumber": "82205",
+        "addr:postcode": "70437",
+        "addr:state": "LA",
+        "addr:street": "Orange Street",
+        "branch": "Folsom",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 985-796-1050",
+        "ref": "2672",
+        "website": "https://www.anytimefitness.com/gyms/2672/folsom-la-70437/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10915888778,
+      "lat": 30.4374192,
+      "lon": -90.9133609,
+      "tags": {
+        "addr:city": "Denham Springs",
+        "addr:housenumber": "25550",
+        "addr:postcode": "70726",
+        "addr:state": "LA",
+        "addr:street": "Juban Road",
+        "branch": "Denham Springs (Juban Road)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-243-5500",
+        "ref": "871",
+        "website": "https://www.anytimefitness.com/gyms/871/denham-springs-la-70726/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11073526092,
+      "lat": 30.3873889,
+      "lon": -91.0649422,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11076565001,
+      "lat": 30.1589988,
+      "lon": -92.0427405,
+      "tags": {
+        "contact:phone": "+1 337-456-8062",
+        "contact:website": "https://www.brightideafit.com/",
+        "description": "Fitness trainer. Helping people reach their fitness and health goals.",
+        "description:fr": "Préparateur physique. Aider les gens à atteindre leurs objectifs en matière de santé et de forme physique.",
+        "leisure": "fitness_centre",
+        "name": "Bright Idea Fitness",
+        "personal_trainer": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11101226934,
+      "lat": 30.1056236,
+      "lon": -92.1241835,
+      "tags": {
+        "addr:city": "Maurice",
+        "addr:housenumber": "8905",
+        "addr:postcode": "70555",
+        "addr:state": "LA",
+        "addr:street": "Maurice Avenue",
+        "branch": "Maurice",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 337-898-3653",
+        "ref": "2073",
+        "website": "https://www.anytimefitness.com/gyms/2073/maurice-la-70555/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11112621920,
+      "lat": 30.3236274,
+      "lon": -90.9286289,
+      "tags": {
+        "addr:city": "Prairieville",
+        "addr:housenumber": "40306",
+        "addr:postcode": "70769",
+        "addr:state": "LA",
+        "addr:street": "Highway 42",
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1-622-7627",
+        "website": "https://www.snapfitness.com/us/gyms/prairieville-galvez-la"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11235953871,
+      "lat": 29.6137136,
+      "lon": -90.7518809,
+      "tags": {
+        "addr:city": "Houma",
+        "addr:housenumber": "243",
+        "addr:postcode": "70360",
+        "addr:state": "LA",
+        "addr:street": "Enterprise Drive",
+        "leisure": "fitness_centre",
+        "name": "Fitness Frenzy",
+        "phone": "9857090746"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11496076882,
+      "lat": 29.9232347,
+      "lon": -90.0878836,
+      "tags": {
+        "brand": "F45 Training",
+        "brand:wikidata": "Q64390973",
+        "leisure": "fitness_centre",
+        "name": "F45 Training",
+        "short_name": "F45"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11633178985,
+      "lat": 29.9397427,
+      "lon": -90.0799834,
+      "tags": {
+        "check_date": "2024-02-16",
+        "leisure": "fitness_centre",
+        "name": "Friday Night Fights Gym/HQ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11671700017,
+      "lat": 30.0209335,
+      "lon": -90.1118267,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "125",
+        "addr:postcode": "70124",
+        "addr:state": "LA",
+        "addr:street": "Allen Toussaint Boulevard",
+        "branch": "New Orleans (Lakeview)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "check_date": "2024-02-27",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 504-286-7667",
+        "ref": "966",
+        "website": "https://www.anytimefitness.com/gyms/966/new-orleans-la-70124/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11709008970,
+      "lat": 30.0015582,
+      "lon": -90.1239808,
+      "tags": {
+        "addr:housenumber": "111",
+        "addr:postcode": "70005",
+        "addr:street": "Veterans Memorial Boulevard",
+        "leisure": "fitness_centre",
+        "name": "Ochsner Fitness",
+        "phone": "+15048321600",
+        "website": "https://www.ochsnerfitness.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11736858395,
+      "lat": 32.5427549,
+      "lon": -92.6374243,
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "103",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "North Service Road East",
+        "addr:unit": "2",
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness",
+        "opening_hours": "Mo-Fr 04:00-22:00; Sa-Su 06:00-20:00",
+        "phone": "+1-318-436-4848"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11823701840,
+      "lat": 30.4693553,
+      "lon": -90.9230213,
+      "tags": {
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11990839174,
+      "lat": 30.2294121,
+      "lon": -93.2163816,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Mantra Yoga Center",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11990993562,
+      "lat": 30.1722701,
+      "lon": -93.2498685,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Mayweather"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11990993565,
+      "lat": 30.1713049,
+      "lon": -93.2505118,
+      "tags": {
+        "addr:city": "Lake Charles",
+        "addr:housenumber": "4740",
+        "addr:postcode": "70605",
+        "addr:state": "LA",
+        "addr:street": "Nelson Road",
+        "addr:unit": "110",
+        "branch": "Lake Charles",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 337-944-0770",
+        "ref": "4290",
+        "website": "https://www.anytimefitness.com/gyms/4290/lake-charles-la-70605/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11991062605,
+      "lat": 30.1848157,
+      "lon": -93.2212431,
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11992629024,
+      "lat": 30.1752079,
+      "lon": -93.2202448,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "CLUB4 Fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12212399071,
+      "lat": 30.4046323,
+      "lon": -91.0157062,
+      "tags": {
+        "addr:housenumber": "5441",
+        "addr:unit": "E",
+        "leisure": "fitness_centre",
+        "name": "Champion Fitness",
+        "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12249287456,
+      "lat": 32.4782412,
+      "lon": -93.7156858,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "739",
+        "addr:postcode": "71105",
+        "addr:state": "LA",
+        "addr:street": "Shreveport Barksdale Highway",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 (318) 670-8478",
+        "website": "https://www.anytimefitness.com/gyms/625/shreveport-la-71105/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12357136235,
+      "lat": 30.224493,
+      "lon": -92.3783205,
+      "tags": {
+        "addr:city": "Crowley",
+        "addr:housenumber": "1506",
+        "addr:postcode": "70526",
+        "addr:state": "LA",
+        "addr:street": "North Parkerson Avenue",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 337-250-4675",
+        "ref": "1921",
+        "shower": "yes",
+        "toilets": "yes",
+        "website": "https://www.anytimefitness.com/gyms/1921/crowley-la-70526/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12376903308,
+      "lat": 30.4693257,
+      "lon": -90.917871,
+      "tags": {
+        "addr:city": "Denham Springs",
+        "addr:housenumber": "27800",
+        "addr:postcode": "70726",
+        "addr:state": "LA",
+        "addr:street": "Juban Road",
+        "addr:unit": "3",
+        "leisure": "fitness_centre",
+        "name": "Regymen Fitness",
+        "website": "https://www.regymenfitness.com/?page_id=2814"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12509953403,
+      "lat": 30.4440308,
+      "lon": -91.1720138,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "Excel Wellness Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 187863783,
+      "center": {
+        "lat": 31.7550892,
+        "lon": -93.0622221
+      },
+      "nodes": [
+        1985013363,
+        1985013362,
+        1985013292,
+        1985013294,
+        1985013363
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "All Hours Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 315534704,
+      "center": {
+        "lat": 30.503901,
+        "lon": -90.4628977
+      },
+      "nodes": [
+        3216548103,
+        3216548107,
+        3216548108,
+        3216548109,
+        3216548110,
+        3216548103
+      ],
+      "tags": {
+        "addr:city": "Hammond",
+        "addr:housenumber": "210",
+        "addr:state": "LA",
+        "addr:street": "West Thomas Street",
+        "building": "commercial",
+        "leisure": "fitness_centre",
+        "name": "Spoga"
+      }
+    },
+    {
+      "type": "way",
+      "id": 322506179,
+      "center": {
+        "lat": 32.5019833,
+        "lon": -92.1240488
+      },
+      "nodes": [
+        3292769731,
+        3292769734,
+        3292769742,
+        3292769743,
+        3292769738,
+        3292769731
+      ],
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "304",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Trenton Street",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "fitness_centre",
+        "name": "Bon Temps Classical Pilates",
+        "opening_hours": "Mo-Th 08:00-17:00",
+        "phone": "(318) 355-0899",
+        "website": "https://www.bontempspilates.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 327326733,
+      "center": {
+        "lat": 29.9612672,
+        "lon": -90.1025764
+      },
+      "nodes": [
+        3340663260,
+        3340663357,
+        3340663455,
+        3340663343,
+        3340663260
+      ],
+      "tags": {
+        "addr:housenumber": "939",
+        "addr:street": "South Norman C. Francis Parkway",
+        "building": "university",
+        "height": "8.52",
+        "leisure": "fitness_centre",
+        "name": "Student Fitness Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372272819,
+      "center": {
+        "lat": 29.9990595,
+        "lon": -90.0607216
+      },
+      "nodes": [
+        3758251336,
+        3758251335,
+        3758251327,
+        3758251322,
+        3758251384,
+        3758251385,
+        3758251409,
+        3758251415,
+        3758251336
+      ],
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "2141",
+        "addr:postcode": "70122",
+        "addr:state": "LA",
+        "addr:street": "Caton Street",
+        "branch": "New Orleans (Gentilly)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 504-309-9304",
+        "ref": "2659",
+        "website": "https://www.anytimefitness.com/gyms/2659/new-orleans-la-70122/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 435326134,
+      "center": {
+        "lat": 30.4871754,
+        "lon": -90.4597399
+      },
+      "nodes": [
+        4332528273,
+        4332528274,
+        4732438304,
+        4732438303,
+        4732438302,
+        4732438301,
+        4732438300,
+        4732438299,
+        4332528275,
+        4332528276,
+        4332528277,
+        4332528278,
+        4332528279,
+        4332528280,
+        4732438298,
+        4332528273
+      ],
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "North Cypress Fitness Center",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440277202,
+      "center": {
+        "lat": 30.4901429,
+        "lon": -90.7476623
+      },
+      "nodes": [
+        4380059792,
+        4380059793,
+        4380059794,
+        4380059795,
+        4380059792
+      ],
+      "tags": {
+        "addr:city": "Livingston",
+        "addr:housenumber": "29526",
+        "addr:postcode": "70754",
+        "addr:state": "LA",
+        "addr:street": "Frost Road",
+        "branch": "Livingston",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-686-1178",
+        "ref": "899",
+        "website": "https://www.anytimefitness.com/gyms/899/livingston-la-70754/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465797231,
+      "center": {
+        "lat": 30.4953525,
+        "lon": -90.9545386
+      },
+      "nodes": [
+        4607164714,
+        4607164715,
+        4607164716,
+        4607164717,
+        4607164718,
+        4607164748,
+        4607164719,
+        4607164720,
+        4607164721,
+        4607164714
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Denham Springs Freshman High Gym",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465797245,
+      "center": {
+        "lat": 30.4961122,
+        "lon": -90.9551746
+      },
+      "nodes": [
+        4607164858,
+        4607164859,
+        4607164860,
+        4607164861,
+        4607164862,
+        4607164863,
+        4607164864,
+        4607164865,
+        4607164858
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Jacket Gym",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465797247,
+      "center": {
+        "lat": 30.4968064,
+        "lon": -90.9532019
+      },
+      "nodes": [
+        4607164872,
+        4607164873,
+        4607164874,
+        4607164875,
+        4607164876,
+        4607164877,
+        4607164878,
+        4607164879,
+        4607164880,
+        4607164881,
+        4607164882,
+        4607164883,
+        4607164884,
+        4607164885,
+        4607164886,
+        4607164887,
+        4607164888,
+        4607164889,
+        4607164890,
+        4607164891,
+        4607164892,
+        4607164893,
+        4607164894,
+        4607164895,
+        4607164896,
+        4607164897,
+        4607164872
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Grady Hornesby Gym",
+        "sport": "athletics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 500746830,
+      "center": {
+        "lat": 30.4570676,
+        "lon": -91.0114914
+      },
+      "nodes": [
+        4917292382,
+        4917292383,
+        4917292384,
+        7804741699,
+        4917292385,
+        7113665991,
+        6957347448,
+        6957347440,
+        4917292382
+      ],
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "YMCA"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531386628,
+      "center": {
+        "lat": 32.5333332,
+        "lon": -92.6510315
+      },
+      "nodes": [
+        5158356643,
+        5158356645,
+        5158356650,
+        5158356652,
+        5158356653,
+        5158356654,
+        5158356655,
+        5158356656,
+        5158356657,
+        5158356658,
+        5158356659,
+        5158356660,
+        5158356661,
+        11513451378,
+        5158356662,
+        5158356663,
+        5158356664,
+        5158356665,
+        5158356666,
+        5158356667,
+        5158356668,
+        11513451377,
+        5158356669,
+        5158356670,
+        5158356671,
+        5158356672,
+        5158356673,
+        5158356674,
+        5158356675,
+        5158356676,
+        5158356677,
+        11513436029,
+        11513436028,
+        11513436027,
+        11513435981,
+        5158347923,
+        5158356679,
+        5158356680,
+        11513436037,
+        11513436038,
+        5158356681,
+        11513435975,
+        11513435976,
+        5158347920,
+        5158356682,
+        5158356643
+      ],
+      "tags": {
+        "building": "university",
+        "building:levels": "2",
+        "layer": "1",
+        "leisure": "fitness_centre",
+        "name": "Lambright Sports & Wellness Center",
+        "opening_hours": "Mo-Th 05:00-00:00; Fr 05:00-22:00; Sa 08:00-20:00; Su 12:00-20:00",
+        "sport": "10pin;swimming;billiards;climbing;basketball;running;table_tennis;fitness",
+        "website": "https://www.latech.edu/life-on-campus/intramural-sports-recreation/lambright-sports-wellness-center/",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "way",
+      "id": 533502918,
+      "center": {
+        "lat": 31.1257079,
+        "lon": -93.2691846
+      },
+      "nodes": [
+        5175701640,
+        5175701641,
+        5175701642,
+        5175701643,
+        5175701640
+      ],
+      "tags": {
+        "brand": "24 Hour Fitness",
+        "brand:wikidata": "Q4631849",
+        "brand:wikipedia": "en:24 Hour Fitness",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "24 Hour Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 533502931,
+      "center": {
+        "lat": 31.1173257,
+        "lon": -93.2734497
+      },
+      "nodes": [
+        5175701663,
+        5175701664,
+        5175701665,
+        5175701666,
+        5175701667,
+        5175701663
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "All Hours FItness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 537023520,
+      "center": {
+        "lat": 30.0103109,
+        "lon": -90.2166833
+      },
+      "nodes": [
+        5201068688,
+        9555375943,
+        5201068689,
+        5201068690,
+        5201068691,
+        5201068692,
+        5201068693,
+        5201068694,
+        5201068695,
+        5201068696,
+        5201068697,
+        5201068698,
+        5201068699,
+        5201068688
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544339990,
+      "center": {
+        "lat": 31.0435821,
+        "lon": -93.20559
+      },
+      "nodes": [
+        5262072907,
+        5262072908,
+        5262072909,
+        5262072910,
+        5262072907
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Wheelock Gym"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594777821,
+      "center": {
+        "lat": 32.4965956,
+        "lon": -93.6826824
+      },
+      "nodes": [
+        5670880093,
+        5670880094,
+        5670880095,
+        5670880096,
+        5670880093
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "level": "2",
+        "name": "Bell Fitness Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 599067424,
+      "center": {
+        "lat": 30.200706,
+        "lon": -92.0440945
+      },
+      "nodes": [
+        5700676965,
+        5700676966,
+        5700676967,
+        5700676968,
+        5700676969,
+        5700676970,
+        5700676971,
+        5700676972,
+        5700676973,
+        5700676974,
+        5700676975,
+        5700676976,
+        5700676977,
+        5700676978,
+        5700676979,
+        5700676980,
+        5700676981,
+        5700676982,
+        5700676965
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Red Lerille's Health & Racquet Club",
+        "sport": "swimming;tennis;fitness;athletics;racquet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 601142870,
+      "center": {
+        "lat": 30.373038,
+        "lon": -91.096227
+      },
+      "nodes": [
+        5714179249,
+        5714179250,
+        5714179251,
+        5714179252,
+        5714179249
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Turnberry Fitness Center",
+        "sport": "running;weightlifting"
+      }
+    },
+    {
+      "type": "way",
+      "id": 615611611,
+      "center": {
+        "lat": 30.4210084,
+        "lon": -91.1752274
+      },
+      "nodes": [
+        5821244028,
+        5821244027,
+        5821244026,
+        5821244025,
+        5821244028
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 615658184,
+      "center": {
+        "lat": 30.2859277,
+        "lon": -90.9559167
+      },
+      "nodes": [
+        5821686859,
+        5821686860,
+        5821686861,
+        5821686862,
+        5821686859
+      ],
+      "tags": {
+        "addr:city": "Prairieville",
+        "addr:housenumber": "15074",
+        "addr:postcode": "70769",
+        "addr:state": "LA",
+        "addr:street": "Airline Highway",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Athletes In Motion",
+        "opening_hours": "Mo-Fr 09:00-20:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617680081,
+      "center": {
+        "lat": 30.4460677,
+        "lon": -91.1110011
+      },
+      "nodes": [
+        5838769933,
+        5838769932,
+        5838769931,
+        5838769930,
+        5838769928,
+        5838769927,
+        5838769926,
+        5838769929,
+        5838769933
+      ],
+      "tags": {
+        "addr:housenumber": "7501",
+        "addr:postcode": "70806",
+        "addr:street": "Lobdell Avenue",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "BREC Independence Tennis Center",
+        "opening_hours": "Sa-Su 08:00-18:00; Mo-Th 08:00-22:00; Fr 08:00-20:00",
+        "phone": "(225) 923-2792"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630314249,
+      "center": {
+        "lat": 29.9878055,
+        "lon": -91.8269908
+      },
+      "nodes": [
+        5952107427,
+        5952107428,
+        5952107429,
+        5952107426,
+        5952107427
+      ],
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "brand:wikipedia": "en:Snap Fitness",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 642346677,
+      "center": {
+        "lat": 30.0273258,
+        "lon": -92.5052292
+      },
+      "nodes": [
+        6047673299,
+        6047673300,
+        6047673301,
+        6047673302,
+        6047673299
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Gueydan High Gym"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643527582,
+      "center": {
+        "lat": 30.4620513,
+        "lon": -90.4084346
+      },
+      "nodes": [
+        6055901030,
+        6055901031,
+        6055901032,
+        6055901033,
+        6055901034,
+        6055901035,
+        6055901036,
+        6055901037,
+        6055901038,
+        6055901039,
+        6055901030
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654152862,
+      "center": {
+        "lat": 32.1705703,
+        "lon": -91.7252466
+      },
+      "nodes": [
+        6130014895,
+        6130014896,
+        6130014897,
+        6130014898,
+        6130014895
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 654152863,
+      "center": {
+        "lat": 32.1654756,
+        "lon": -91.7204775
+      },
+      "nodes": [
+        6130014899,
+        6130014900,
+        6130014901,
+        6130014902,
+        6130014899
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 702166694,
+      "center": {
+        "lat": 30.503325,
+        "lon": -90.9400342
+      },
+      "nodes": [
+        6593963523,
+        6593963524,
+        6593963525,
+        6593963526,
+        6593963523
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 704074336,
+      "center": {
+        "lat": 30.264097,
+        "lon": -89.7607277
+      },
+      "nodes": [
+        6611074191,
+        6611074192,
+        6611074193,
+        6611074194,
+        6611074195,
+        6611074196,
+        6611074197,
+        6611074198,
+        6611074199,
+        6611074200,
+        6611074201,
+        6611074191
+      ],
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:postcode": "70458",
+        "addr:state": "LA",
+        "brand": "LA Fitness",
+        "brand:wikidata": "Q6457180",
+        "brand:wikipedia": "en:LA Fitness",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "LA Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 707894403,
+      "center": {
+        "lat": 29.9809378,
+        "lon": -90.2097662
+      },
+      "nodes": [
+        6651752469,
+        6651752470,
+        6651752471,
+        6651752472,
+        6651752473,
+        6651752474,
+        6651791534,
+        6651752475,
+        6651752476,
+        6651752483,
+        6651791532,
+        6651752477,
+        6651752478,
+        6651791530,
+        6651752479,
+        6651752480,
+        6651791527,
+        6651752481,
+        6651752482,
+        6651791624,
+        6651791620,
+        6651791622,
+        6651791525,
+        6651791524,
+        6651791621,
+        6651791619,
+        6651791623,
+        6651752469
+      ],
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "6900",
+        "addr:postcode": "70003",
+        "addr:state": "LA",
+        "addr:street": "Saints Drive",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Ree Alario Special Needs Center",
+        "name:etymology": "Alba \"Ree\" Alario",
+        "start_date": "2016"
+      }
+    },
+    {
+      "type": "way",
+      "id": 708121998,
+      "center": {
+        "lat": 29.8012845,
+        "lon": -90.8197766
+      },
+      "nodes": [
+        6653836919,
+        6653836920,
+        6653836921,
+        6653836922,
+        6653836919
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 715606410,
+      "center": {
+        "lat": 30.4995116,
+        "lon": -90.9567428
+      },
+      "nodes": [
+        6725356632,
+        6725356633,
+        6725356634,
+        6725356635,
+        6725356632
+      ],
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "brand:wikipedia": "en:Snap Fitness",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness",
+        "opening_hours": "24/7",
+        "phone": "(225) 665-0272"
+      }
+    },
+    {
+      "type": "way",
+      "id": 723007516,
+      "center": {
+        "lat": 30.2868692,
+        "lon": -92.019977
+      },
+      "nodes": [
+        6781681438,
+        6781681439,
+        6781681440,
+        6781681441,
+        6781681442,
+        6781681443,
+        6781681444,
+        6781681445,
+        6781681446,
+        6781681447,
+        6781681448,
+        6781681449,
+        6781681438
+      ],
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "128E",
+        "addr:postcode": "70507",
+        "addr:state": "LA",
+        "addr:street": "Butcher Switch Rd",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "RevFit Gym",
+        "opening_hours": "24/7",
+        "phone": "+1-337-235-6000",
+        "website": "https://www.revfitgym.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 739438400,
+      "center": {
+        "lat": 30.3918853,
+        "lon": -91.0631742
+      },
+      "nodes": [
+        6923463572,
+        6923463573,
+        6923463574,
+        6923463575,
+        6923463572
+      ],
+      "tags": {
+        "brand": "LA Fitness",
+        "brand:wikidata": "Q6457180",
+        "brand:wikipedia": "en:LA Fitness",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "LA Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 743164904,
+      "center": {
+        "lat": 32.5298481,
+        "lon": -92.6399917
+      },
+      "nodes": [
+        6956308295,
+        6956308296,
+        6956308297,
+        6956308298,
+        11161992566,
+        6956308295
+      ],
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "212",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "West Mississippi Avenue",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Blue Sky Yoga",
+        "sport": "yoga",
+        "website": "https://blue-sky-yoga.net/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 778723800,
+      "center": {
+        "lat": 30.481075,
+        "lon": -90.465568
+      },
+      "nodes": [
+        7270814738,
+        7270814739,
+        7270814740,
+        7270814741,
+        7270814738
+      ],
+      "tags": {
+        "addr:city": "Hammond",
+        "addr:housenumber": "811",
+        "addr:postcode": "70403",
+        "addr:state": "LA",
+        "addr:street": "C M Fagan Drive",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Spoga Fitness Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 807536513,
+      "center": {
+        "lat": 30.4519098,
+        "lon": -90.1425604
+      },
+      "nodes": [
+        7551658303,
+        7551658304,
+        7551658305,
+        7551658306,
+        7551658307,
+        7551658308,
+        7551658309,
+        7551658310,
+        7551658303
+      ],
+      "tags": {
+        "addr:city": "Covington",
+        "addr:housenumber": "1201",
+        "addr:postcode": "70433",
+        "addr:state": "LA",
+        "addr:street": "Ochsner Boulevard",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Stone Creek Club and Spa",
+        "phone": "+1-985-801-7100",
+        "website": "https://stonecreekclubandspa.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 817892390,
+      "center": {
+        "lat": 32.5222366,
+        "lon": -92.7120183
+      },
+      "nodes": [
+        4814008187,
+        7638423688,
+        7638423689,
+        7638423690,
+        7638423691,
+        7638423692,
+        4814008187
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Intramural Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 817892411,
+      "center": {
+        "lat": 32.5242205,
+        "lon": -92.7124548
+      },
+      "nodes": [
+        4814008182,
+        7638423868,
+        7638423869,
+        7638423870,
+        7638423871,
+        7638423872,
+        7638423873,
+        7638423874,
+        7638423875,
+        7638423876,
+        7638423877,
+        7638423878,
+        7638423879,
+        7638423880,
+        4814008182
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Men's Gym"
+      }
+    },
+    {
+      "type": "way",
+      "id": 818634440,
+      "center": {
+        "lat": 30.5389239,
+        "lon": -90.9558794
+      },
+      "nodes": [
+        7644920537,
+        7644920538,
+        7644920539,
+        7644920540,
+        7644920537
+      ],
+      "tags": {
+        "addr:city": "Denham Springs (Watson)",
+        "addr:housenumber": "32350",
+        "addr:postcode": "70706",
+        "addr:state": "LA",
+        "addr:street": "Highway 16",
+        "branch": "Denham Springs (Watson) (Highway 16)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 225-667-1077",
+        "ref": "88",
+        "website": "https://www.anytimefitness.com/gyms/88/denham-springs-watson-la-70706/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 847824634,
+      "center": {
+        "lat": 30.3544705,
+        "lon": -90.9979088
+      },
+      "nodes": [
+        7911439842,
+        7911439843,
+        7911439844,
+        7911439845,
+        7911439842
+      ],
+      "tags": {
+        "addr:housenumber": "17475",
+        "addr:street": "Opportunity Avenue",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Transform FX Fitness",
+        "phone": "225-304-6157",
+        "website": "https://transformfxfitness.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 847824684,
+      "center": {
+        "lat": 30.3546869,
+        "lon": -90.9968629
+      },
+      "nodes": [
+        7911439948,
+        7911439949,
+        7911439950,
+        7911439951,
+        7911439948
+      ],
+      "tags": {
+        "addr:housenumber": "15515",
+        "addr:street": "Knox Drive",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Trinity Sports Academy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 881006559,
+      "center": {
+        "lat": 30.4174919,
+        "lon": -91.1360254
+      },
+      "nodes": [
+        8194172348,
+        8194172349,
+        8194172350,
+        8194172351,
+        8194172352,
+        8194172353,
+        8194172354,
+        8194172355,
+        8194172348
+      ],
+      "tags": {
+        "addr:housenumber": "3053",
+        "addr:street": "Old Forge Drive",
+        "addr:unit": "B",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Core Health & Body"
+      }
+    },
+    {
+      "type": "way",
+      "id": 921545532,
+      "center": {
+        "lat": 30.4024245,
+        "lon": -91.1095317
+      },
+      "nodes": [
+        8555677338,
+        8555677339,
+        8555677340,
+        8555677341,
+        8555677342,
+        8555677343,
+        8555677344,
+        8555677345,
+        7111199384,
+        8555677346,
+        8555677362,
+        8555677347,
+        8555677348,
+        8555677349,
+        8555677350,
+        8555677351,
+        8555677352,
+        8555677353,
+        8555677354,
+        8555677355,
+        8555677356,
+        8555677357,
+        8555677338
+      ],
+      "tags": {
+        "addr:housenumber": "5222",
+        "addr:street": "Brittany Drive",
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923601023,
+      "center": {
+        "lat": 30.3948086,
+        "lon": -91.104951
+      },
+      "nodes": [
+        8573485263,
+        8573485264,
+        8573485265,
+        8573485266,
+        8573485267,
+        8573485268,
+        8573485269,
+        8573485270,
+        8573485271,
+        8573485272,
+        8573485263
+      ],
+      "tags": {
+        "addr:housenumber": "7872",
+        "addr:street": "Anselmo Lane",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "La Gold Gymnastics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977578331,
+      "center": {
+        "lat": 30.4872771,
+        "lon": -92.8504229
+      },
+      "nodes": [
+        9045563631,
+        9045563632,
+        9045563633,
+        9045563634,
+        9045563631
+      ],
+      "tags": {
+        "addr:city": "Kinder",
+        "addr:housenumber": "1024",
+        "addr:postcode": "70648",
+        "addr:state": "LA",
+        "addr:street": "3rd Avenue",
+        "building": "yes",
+        "contact:facebook": "karamsfitness",
+        "email": "Karamsfitness@gmail.com",
+        "leisure": "fitness_centre",
+        "name": "Karam’s Fitness",
+        "opening_hours": "24/7",
+        "opening_hours:reception": "Mo-Fr 10:00-16:00",
+        "phone": "3379988196",
+        "website": "https://karamsfitness.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983654408,
+      "center": {
+        "lat": 32.5163584,
+        "lon": -92.1565899
+      },
+      "nodes": [
+        9094769099,
+        9094769100,
+        9094769101,
+        9094769102,
+        9094769103,
+        9094769104,
+        9094769105,
+        9094769106,
+        9094769107,
+        9094769108,
+        9094769109,
+        9094769110,
+        9094769111,
+        9094769112,
+        9094769113,
+        9094769114,
+        9094816517,
+        9094769115,
+        9094769116,
+        9094816518,
+        9094816519,
+        9094816522,
+        9094816521,
+        9094816520,
+        9094769099
+      ],
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "3215",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Cypress Street",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "The Wellness Center",
+        "opening_hours": "Mo-Th 04:30-21:00, Fr 04:30-20:00, Sa 07:00-18:00, Su 12:00-17:00",
+        "phone": "(318) 329-9100",
+        "website": "https://www.wmwellnesscenter.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984553658,
+      "center": {
+        "lat": 32.4596942,
+        "lon": -91.7609777
+      },
+      "nodes": [
+        9102574926,
+        9102574927,
+        9102574928,
+        9102574929,
+        9102574926
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 990863390,
+      "center": {
+        "lat": 30.460428,
+        "lon": -90.9527647
+      },
+      "nodes": [
+        9155326148,
+        9155326149,
+        9155326150,
+        9155326151,
+        9155326152,
+        9155326153,
+        9155326154,
+        9155326155,
+        9155326148
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Spectrum Fitness & Medical Wellness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017455442,
+      "center": {
+        "lat": 32.6035352,
+        "lon": -93.8448682
+      },
+      "nodes": [
+        9384627998,
+        9384627999,
+        9384628000,
+        9384628001,
+        9384627998
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "4647",
+        "addr:postcode": "71107",
+        "addr:state": "LA",
+        "addr:street": "Roy Road Extension",
+        "building": "commercial",
+        "building:levels": "1",
+        "leisure": "fitness_centre",
+        "name": "Elite Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 (318) 453-4400",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.elitefitnessblanchard.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032428401,
+      "center": {
+        "lat": 30.7784843,
+        "lon": -90.5290335
+      },
+      "nodes": [
+        9512566112,
+        9512566113,
+        9512566114,
+        9512566115,
+        9512566112
+      ],
+      "tags": {
+        "addr:city": "Roseland",
+        "addr:housenumber": "6052",
+        "addr:postcode": "70456",
+        "addr:state": "LA",
+        "addr:street": "Roch Road",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Arcola Mx"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077150601,
+      "center": {
+        "lat": 32.5423116,
+        "lon": -92.6318034
+      },
+      "nodes": [
+        9876712142,
+        9876712143,
+        9876712144,
+        9876712145,
+        9876712146,
+        9876712142
+      ],
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "1223",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "Goodwin Road",
+        "branch": "Ruston",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 318-255-1200",
+        "ref": "1237",
+        "website": "https://www.anytimefitness.com/gyms/1237/ruston-la-71270/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119236883,
+      "center": {
+        "lat": 32.4511612,
+        "lon": -93.6947663
+      },
+      "nodes": [
+        10236137260,
+        10236137264,
+        10236137254,
+        10236137258,
+        10236137260
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:postcode": "71105",
+        "addr:state": "LA",
+        "addr:street": "East 70th Street",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "The Compound",
+        "sport": "boxing, martial arts"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120099042,
+      "center": {
+        "lat": 29.6124908,
+        "lon": -90.7440407
+      },
+      "nodes": [
+        10244561523,
+        10244561524,
+        10244561525,
+        10244561526,
+        10244561527,
+        10244561528,
+        10244561529,
+        10244561530,
+        10244561523
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1131203693,
+      "center": {
+        "lat": 32.5372268,
+        "lon": -92.1058594
+      },
+      "nodes": [
+        10543447398,
+        10543447399,
+        10543447400,
+        10543447401,
+        10543447398
+      ],
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2309",
+        "addr:postcode": "71201",
+        "addr:state": "LA",
+        "addr:street": "Oliver Road",
+        "branch": "Monroe (Oliver Road)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 318-322-4005",
+        "ref": "1702",
+        "website": "https://www.anytimefitness.com/gyms/1702/Monroe-LA-71201/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1195998053,
+      "center": {
+        "lat": 32.4078339,
+        "lon": -93.7392627
+      },
+      "nodes": [
+        11098873690,
+        11098873691,
+        11098873692,
+        11098873693,
+        11098873690
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "9250",
+        "addr:postcode": "71106",
+        "addr:state": "LA",
+        "addr:street": "Ellerbe Road",
+        "branch": "Shreveport (Ellerbe Road)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 318-865-5115",
+        "ref": "130",
+        "website": "https://www.anytimefitness.com/gyms/130/shreveport-la-71106/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1195998096,
+      "center": {
+        "lat": 32.3556898,
+        "lon": -93.714663
+      },
+      "nodes": [
+        11098873821,
+        11098873822,
+        11098873823,
+        11098873824,
+        11098873825,
+        11098873821
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "1931",
+        "addr:postcode": "71106",
+        "addr:state": "LA",
+        "addr:street": "Southern Loop",
+        "branch": "Shreveport (Southern Loop)",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 318-703-3990",
+        "ref": "4473",
+        "website": "https://www.anytimefitness.com/gyms/4473/shreveport-la-71106/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232197884,
+      "center": {
+        "lat": 30.1450819,
+        "lon": -91.8227924
+      },
+      "nodes": [
+        11429162538,
+        11429162539,
+        11429162540,
+        11429162541,
+        11429162538
+      ],
+      "tags": {
+        "addr:city": "St. Martinville",
+        "addr:housenumber": "2230",
+        "addr:postcode": "70582",
+        "addr:state": "LA",
+        "addr:street": "North Main Street",
+        "branch": "Saint Martinville",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "phone": "+1 337-394-3488",
+        "ref": "3263",
+        "website": "https://www.anytimefitness.com/gyms/3263/st-martinville-la-70582/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1240931077,
+      "center": {
+        "lat": 30.2357063,
+        "lon": -93.1894336
+      },
+      "nodes": [
+        11530045570,
+        11530045571,
+        11530045572,
+        11530045573,
+        11530045574,
+        11530045575,
+        11530045576,
+        11530045577,
+        11530045570
+      ],
+      "tags": {
+        "addr:city": "Lake Charles",
+        "addr:housenumber": "216",
+        "addr:postcode": "70601",
+        "addr:state": "LA",
+        "addr:street": "Albert Street",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Pryce/Miller Recreation Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1290546401,
+      "center": {
+        "lat": 30.2210755,
+        "lon": -93.377284
+      },
+      "nodes": [
+        11965424824,
+        11965424825,
+        11965424826,
+        11965424827,
+        11965424824
+      ],
+      "tags": {
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1293519160,
+      "center": {
+        "lat": 30.1774797,
+        "lon": -93.2476308
+      },
+      "nodes": [
+        11990961446,
+        11990961447,
+        11990961448,
+        11990961449,
+        11990961450,
+        10910007809,
+        11990961451,
+        11990961446
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Project Fit"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305857679,
+      "center": {
+        "lat": 32.5233264,
+        "lon": -92.1480847
+      },
+      "nodes": [
+        12094492481,
+        12094492482,
+        12094492483,
+        12094492484,
+        12094492481
+      ],
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "2419",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "North 7th Street",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "commercial",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319713336,
+      "center": {
+        "lat": 32.3989578,
+        "lon": -93.8063853
+      },
+      "nodes": [
+        12212552391,
+        12212552392,
+        12212552393,
+        12212552394,
+        12212552395,
+        12212552396,
+        12212552397,
+        12212552398,
+        12212552399,
+        12212552391
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "9315",
+        "addr:postcode": "71118-3126",
+        "addr:state": "LA",
+        "addr:street": "Mansfield Road",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "commercial",
+        "building:levels": "1",
+        "height": "5",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 (318) 688-5900",
+        "website": "https://www.anytimefitness.com/gyms/1983/shreveport-la-71118/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1333609597,
+      "center": {
+        "lat": 32.4492986,
+        "lon": -93.7229203
+      },
+      "nodes": [
+        12338273402,
+        12338273403,
+        12338273404,
+        12338273405,
+        12338273402
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "6319",
+        "addr:postcode": "71105",
+        "addr:state": "LA",
+        "addr:street": "Sand Beach Boulevard",
+        "building": "commercial",
+        "building:levels": "1",
+        "height": "4",
+        "leisure": "fitness_centre",
+        "name": "Fitness Expo",
+        "opening_hours": "Tu-Sa 10:00-17:00",
+        "phone": "+1 (318) 596-0148",
+        "website": "https://www.fitnessexpostores.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1341653826,
+      "center": {
+        "lat": 32.5993968,
+        "lon": -93.8398229
+      },
+      "nodes": [
+        12410452366,
+        12410452369,
+        12410452370,
+        12410452367,
+        12410452366
+      ],
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "5795",
+        "addr:postcode": "71107-2528",
+        "addr:state": "LA",
+        "addr:street": "North Market Street",
+        "addr:unit": "Suite 300",
+        "brand": "Anytime Fitness",
+        "brand:wikidata": "Q4778364",
+        "building": "commercial",
+        "leisure": "fitness_centre",
+        "name": "Anytime Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 (318) 965-7700",
+        "website": "https://www.anytimefitness.com/gyms/1982/shreveport-la-71107/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345308990,
+      "center": {
+        "lat": 30.4444586,
+        "lon": -90.4187079
+      },
+      "nodes": [
+        12446160778,
+        12446160814,
+        12446160800,
+        12446160781,
+        12446160787,
+        12446160788,
+        12446160789,
+        12446160790,
+        12446160780,
+        12446160779,
+        12446160778
+      ],
+      "tags": {
+        "brand": "Snap Fitness",
+        "brand:wikidata": "Q7547254",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Snap Fitness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1346823525,
+      "center": {
+        "lat": 32.5397893,
+        "lon": -93.708944
+      },
+      "nodes": [
+        12458266268,
+        12458266275,
+        12458266276,
+        12458266281,
+        12458266277,
+        12458266278,
+        12458266269,
+        12458266268
+      ],
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "2171",
+        "addr:postcode": "71111-3172",
+        "addr:state": "LA",
+        "addr:street": "Airline Drive",
+        "building": "commercial",
+        "leisure": "fitness_centre",
+        "name": "Fit Body Boot Camp",
+        "opening_hours": "Mo-Fr 05:00-19:30, Sa 07:00-22:00, Su 07:00-10:00",
+        "phone": "+1 (318) 771-1077",
+        "website": "https://fitbodybootcamp.com/locations/bossier-city-la/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1355415939,
+      "center": {
+        "lat": 30.2305384,
+        "lon": -93.3711972
+      },
+      "nodes": [
+        12544149375,
+        12544149133,
+        12544149115,
+        12544149384,
+        12544149176,
+        12544149246,
+        12544149259,
+        12544149311,
+        12544149292,
+        12544149167,
+        12544149151,
+        12544149207,
+        12544149352,
+        12544149388,
+        12544149233,
+        12544149218,
+        12544149325,
+        12544149226,
+        12544149236,
+        12544149245,
+        12544149375
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "name": "Dynamic Dimensions"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1362063408,
+      "center": {
+        "lat": 32.5267197,
+        "lon": -93.719096
+      },
+      "nodes": [
+        12610825430,
+        12610825431,
+        12610825432,
+        12610825433,
+        12610825434,
+        12610825435,
+        12610825436,
+        12610825437,
+        12610825438,
+        12610825439,
+        12610825444,
+        12610825440,
+        12610825441,
+        12610825442,
+        12610825443,
+        12610825430
+      ],
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "801",
+        "addr:postcode": "71111",
+        "addr:state": "LA",
+        "addr:street": "Benton Road",
+        "brand": "Planet Fitness",
+        "brand:wikidata": "Q7201095",
+        "building": "commercial",
+        "leisure": "fitness_centre",
+        "name": "Planet Fitness",
+        "opening_hours": "24/7",
+        "phone": "+1 (318) 588-5011",
+        "website": "https://www.planetfitness.com/gyms/bossier-city-la"
+      }
+    }
+  ]
+}
