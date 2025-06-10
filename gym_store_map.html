@@ -1,0 +1,4532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eff608ade257f61b1d2897cc3cafae5c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eff608ade257f61b1d2897cc3cafae5c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eff608ade257f61b1d2897cc3cafae5c = L.map(
+                "map_eff608ade257f61b1d2897cc3cafae5c",
+                {
+                    center: [30.390052129059832, -90.98224356068378],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e50e8b09c0012ec372882ddcc00a97da = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e50e8b09c0012ec372882ddcc00a97da.addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var marker_3acf1e98fea464906e59ab293f2e1f49 = L.marker(
+                [31.3350379, -92.3880963],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_c88e6dceb24a1f1101764139d980f37b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1a411ac0af6222839da9e24226a3c65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46249548066b0d6f4daf5e99bfbad0c6 = $(`<div id="html_46249548066b0d6f4daf5e99bfbad0c6" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_f1a411ac0af6222839da9e24226a3c65.setContent(html_46249548066b0d6f4daf5e99bfbad0c6);
+            
+        
+
+        marker_3acf1e98fea464906e59ab293f2e1f49.bindPopup(popup_f1a411ac0af6222839da9e24226a3c65)
+        ;
+
+        
+    
+    
+                marker_3acf1e98fea464906e59ab293f2e1f49.setIcon(icon_c88e6dceb24a1f1101764139d980f37b);
+            
+    
+            var marker_35f02eae75132989e2404220e45f8158 = L.marker(
+                [30.110556, -92.0209518],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_56d4d361863952a719e14f5dc2b8e1e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ad6ea7e54ed66bcdf00e5eb29f42d95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f9d418b9c9a5bc0452482b9ef17efd4 = $(`<div id="html_6f9d418b9c9a5bc0452482b9ef17efd4" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_5ad6ea7e54ed66bcdf00e5eb29f42d95.setContent(html_6f9d418b9c9a5bc0452482b9ef17efd4);
+            
+        
+
+        marker_35f02eae75132989e2404220e45f8158.bindPopup(popup_5ad6ea7e54ed66bcdf00e5eb29f42d95)
+        ;
+
+        
+    
+    
+                marker_35f02eae75132989e2404220e45f8158.setIcon(icon_56d4d361863952a719e14f5dc2b8e1e4);
+            
+    
+            var marker_18b3d2b84a44c5b80544405ac463e11b = L.marker(
+                [30.4799202, -90.864021],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ff1a8447ec48a7f6901ecf3f0e79360a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f6e805a854e6f8fcd32eeca88b6c42f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b39119b1b443613a026a796c72a5440d = $(`<div id="html_b39119b1b443613a026a796c72a5440d" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_4f6e805a854e6f8fcd32eeca88b6c42f.setContent(html_b39119b1b443613a026a796c72a5440d);
+            
+        
+
+        marker_18b3d2b84a44c5b80544405ac463e11b.bindPopup(popup_4f6e805a854e6f8fcd32eeca88b6c42f)
+        ;
+
+        
+    
+    
+                marker_18b3d2b84a44c5b80544405ac463e11b.setIcon(icon_ff1a8447ec48a7f6901ecf3f0e79360a);
+            
+    
+            var marker_eda5620169994c648164cd79ddcb49ed = L.marker(
+                [30.4811384, -90.8641712],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0c2ea3a1ec20e9d9ab9ad81714bff148 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bdcaf6a82b9b3f5588c637ed9341a78c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f271ceeafd8b2b4930220a522821b586 = $(`<div id="html_f271ceeafd8b2b4930220a522821b586" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_bdcaf6a82b9b3f5588c637ed9341a78c.setContent(html_f271ceeafd8b2b4930220a522821b586);
+            
+        
+
+        marker_eda5620169994c648164cd79ddcb49ed.bindPopup(popup_bdcaf6a82b9b3f5588c637ed9341a78c)
+        ;
+
+        
+    
+    
+                marker_eda5620169994c648164cd79ddcb49ed.setIcon(icon_0c2ea3a1ec20e9d9ab9ad81714bff148);
+            
+    
+            var marker_8bc616a126661e2037b25684ac7abb51 = L.marker(
+                [29.9492553, -90.1323064],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_c0cd8140b364a9d29df2b373ecbeb195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d34ece728032987e2270af11076c63f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8daf4f9ed4205fdddbcaf998efe8994 = $(`<div id="html_d8daf4f9ed4205fdddbcaf998efe8994" style="width: 100.0%; height: 100.0%;">Gym: Yes, Yoga</div>`)[0];
+                popup_6d34ece728032987e2270af11076c63f.setContent(html_d8daf4f9ed4205fdddbcaf998efe8994);
+            
+        
+
+        marker_8bc616a126661e2037b25684ac7abb51.bindPopup(popup_6d34ece728032987e2270af11076c63f)
+        ;
+
+        
+    
+    
+                marker_8bc616a126661e2037b25684ac7abb51.setIcon(icon_c0cd8140b364a9d29df2b373ecbeb195);
+            
+    
+            var marker_8711a76d3d4d1f8aeceeda19405a770c = L.marker(
+                [29.9595335, -90.1124042],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_7748d8cc8527c4658a07fc5b49bc0888 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47c4ca4d2687988a7354ed26b98499b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1d569c16c4eb27ae1d2899dd9f36c1b = $(`<div id="html_b1d569c16c4eb27ae1d2899dd9f36c1b" style="width: 100.0%; height: 100.0%;">Gym: Crescent City Gymnastics</div>`)[0];
+                popup_47c4ca4d2687988a7354ed26b98499b7.setContent(html_b1d569c16c4eb27ae1d2899dd9f36c1b);
+            
+        
+
+        marker_8711a76d3d4d1f8aeceeda19405a770c.bindPopup(popup_47c4ca4d2687988a7354ed26b98499b7)
+        ;
+
+        
+    
+    
+                marker_8711a76d3d4d1f8aeceeda19405a770c.setIcon(icon_7748d8cc8527c4658a07fc5b49bc0888);
+            
+    
+            var marker_fae1cd3294c95509c72111459b0056c3 = L.marker(
+                [30.1060356, -92.0161941],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d26c00e641bec6dc292be09ba0e84d9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6295c0535e9d61a1acb7840fa174c7bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e204f053e1d0da72d9983d109498f7a0 = $(`<div id="html_e204f053e1d0da72d9983d109498f7a0" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_6295c0535e9d61a1acb7840fa174c7bb.setContent(html_e204f053e1d0da72d9983d109498f7a0);
+            
+        
+
+        marker_fae1cd3294c95509c72111459b0056c3.bindPopup(popup_6295c0535e9d61a1acb7840fa174c7bb)
+        ;
+
+        
+    
+    
+                marker_fae1cd3294c95509c72111459b0056c3.setIcon(icon_d26c00e641bec6dc292be09ba0e84d9b);
+            
+    
+            var marker_c679cbe61a13ee05c49ffafc6a0140b6 = L.marker(
+                [29.9351985, -90.1052252],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0adfe6c901e4ba713cc265ebd2ba3d04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eba1414a7ebfd729f7b3c4cb3dd99b73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_426ca87b177e470ca7f87386c8b0fbe0 = $(`<div id="html_426ca87b177e470ca7f87386c8b0fbe0" style="width: 100.0%; height: 100.0%;">Gym: Body Shoppe</div>`)[0];
+                popup_eba1414a7ebfd729f7b3c4cb3dd99b73.setContent(html_426ca87b177e470ca7f87386c8b0fbe0);
+            
+        
+
+        marker_c679cbe61a13ee05c49ffafc6a0140b6.bindPopup(popup_eba1414a7ebfd729f7b3c4cb3dd99b73)
+        ;
+
+        
+    
+    
+                marker_c679cbe61a13ee05c49ffafc6a0140b6.setIcon(icon_0adfe6c901e4ba713cc265ebd2ba3d04);
+            
+    
+            var marker_73110a8e1b9a5ac217ffef12ab615bda = L.marker(
+                [29.9350683, -90.1087653],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_9248f840122119ad87cf3d4616150a64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3dc7113ee6da60eb45084bd4f9782437 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b47f55d476be0cfe28cda6df307c6ae2 = $(`<div id="html_b47f55d476be0cfe28cda6df307c6ae2" style="width: 100.0%; height: 100.0%;">Gym: Body Shoppe</div>`)[0];
+                popup_3dc7113ee6da60eb45084bd4f9782437.setContent(html_b47f55d476be0cfe28cda6df307c6ae2);
+            
+        
+
+        marker_73110a8e1b9a5ac217ffef12ab615bda.bindPopup(popup_3dc7113ee6da60eb45084bd4f9782437)
+        ;
+
+        
+    
+    
+                marker_73110a8e1b9a5ac217ffef12ab615bda.setIcon(icon_9248f840122119ad87cf3d4616150a64);
+            
+    
+            var marker_05af3174794860f780d9574a904b51a5 = L.marker(
+                [29.9217611, -90.1204788],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_9f1d77719915813d6dedd21d219237dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_861e7be16cf41071ab5822daf6929e4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbc267ec02a1ca69b00a4b4d992b0a82 = $(`<div id="html_fbc267ec02a1ca69b00a4b4d992b0a82" style="width: 100.0%; height: 100.0%;">Gym: City Surf</div>`)[0];
+                popup_861e7be16cf41071ab5822daf6929e4a.setContent(html_fbc267ec02a1ca69b00a4b4d992b0a82);
+            
+        
+
+        marker_05af3174794860f780d9574a904b51a5.bindPopup(popup_861e7be16cf41071ab5822daf6929e4a)
+        ;
+
+        
+    
+    
+                marker_05af3174794860f780d9574a904b51a5.setIcon(icon_9f1d77719915813d6dedd21d219237dd);
+            
+    
+            var marker_f6dcbf678ca3962b01de2a236dd90e7a = L.marker(
+                [29.9207143, -90.1041853],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_24ba4202dcbc861b2c803a2c303c771a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4ae1db6b8b95d4e85f21561be022dbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a7e23625b4e8ced7abc0079e018ff20 = $(`<div id="html_5a7e23625b4e8ced7abc0079e018ff20" style="width: 100.0%; height: 100.0%;">Gym: free to be Power Yoga</div>`)[0];
+                popup_c4ae1db6b8b95d4e85f21561be022dbd.setContent(html_5a7e23625b4e8ced7abc0079e018ff20);
+            
+        
+
+        marker_f6dcbf678ca3962b01de2a236dd90e7a.bindPopup(popup_c4ae1db6b8b95d4e85f21561be022dbd)
+        ;
+
+        
+    
+    
+                marker_f6dcbf678ca3962b01de2a236dd90e7a.setIcon(icon_24ba4202dcbc861b2c803a2c303c771a);
+            
+    
+            var marker_e26d512a3c4422883e15130585edd654 = L.marker(
+                [30.3090692, -89.7469715],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_caa793c0c3979c3736c38a0c3771843a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32b1eb75299494d10716e93511df2435 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc63beed3c6e2bd045bd6c140706d2c9 = $(`<div id="html_cc63beed3c6e2bd045bd6c140706d2c9" style="width: 100.0%; height: 100.0%;">Gym: Club4 Fitness</div>`)[0];
+                popup_32b1eb75299494d10716e93511df2435.setContent(html_cc63beed3c6e2bd045bd6c140706d2c9);
+            
+        
+
+        marker_e26d512a3c4422883e15130585edd654.bindPopup(popup_32b1eb75299494d10716e93511df2435)
+        ;
+
+        
+    
+    
+                marker_e26d512a3c4422883e15130585edd654.setIcon(icon_caa793c0c3979c3736c38a0c3771843a);
+            
+    
+            var marker_12696e38caa1dfc0e67117827ebcb847 = L.marker(
+                [29.9686937, -90.0526382],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0a1802849e85988548562d8db2f830c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_363fac59130f61aa4de1cdf3e5d6046a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be565b6508ae6c2233e3d6be42cba23d = $(`<div id="html_be565b6508ae6c2233e3d6be42cba23d" style="width: 100.0%; height: 100.0%;">Gym: New Orleans Boulder Lounge</div>`)[0];
+                popup_363fac59130f61aa4de1cdf3e5d6046a.setContent(html_be565b6508ae6c2233e3d6be42cba23d);
+            
+        
+
+        marker_12696e38caa1dfc0e67117827ebcb847.bindPopup(popup_363fac59130f61aa4de1cdf3e5d6046a)
+        ;
+
+        
+    
+    
+                marker_12696e38caa1dfc0e67117827ebcb847.setIcon(icon_0a1802849e85988548562d8db2f830c0);
+            
+    
+            var marker_728acc53e643ca5d0b128f0f1271f74e = L.marker(
+                [30.0051253, -90.1972429],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_2760e7b178241a28eb1409f867d1e443 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f24e4610e236dd4098afa41727d4f557 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b83258270a20b11897399a0798e78f8d = $(`<div id="html_b83258270a20b11897399a0798e78f8d" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_f24e4610e236dd4098afa41727d4f557.setContent(html_b83258270a20b11897399a0798e78f8d);
+            
+        
+
+        marker_728acc53e643ca5d0b128f0f1271f74e.bindPopup(popup_f24e4610e236dd4098afa41727d4f557)
+        ;
+
+        
+    
+    
+                marker_728acc53e643ca5d0b128f0f1271f74e.setIcon(icon_2760e7b178241a28eb1409f867d1e443);
+            
+    
+            var marker_13865f14d7d1c327d9bfee767d4d4a40 = L.marker(
+                [29.9279765, -90.0686763],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_6d21e194e533b0d572300fe4b734c15c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e969f5ddb89fdb00da1b1c5926c2320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a811adb6e5a69bc12df66f60892635f = $(`<div id="html_3a811adb6e5a69bc12df66f60892635f" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_7e969f5ddb89fdb00da1b1c5926c2320.setContent(html_3a811adb6e5a69bc12df66f60892635f);
+            
+        
+
+        marker_13865f14d7d1c327d9bfee767d4d4a40.bindPopup(popup_7e969f5ddb89fdb00da1b1c5926c2320)
+        ;
+
+        
+    
+    
+                marker_13865f14d7d1c327d9bfee767d4d4a40.setIcon(icon_6d21e194e533b0d572300fe4b734c15c);
+            
+    
+            var marker_89b6000e1b70bc4b5ebf963f23cc617e = L.marker(
+                [32.5166459, -92.1565715],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_78fe72272913463af5fbae80f0582e41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da8545d3b647e19d0b8b76d623d8ca33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2102797ae1067d124fc36e73b5298d67 = $(`<div id="html_2102797ae1067d124fc36e73b5298d67" style="width: 100.0%; height: 100.0%;">Gym: The Wellness Center</div>`)[0];
+                popup_da8545d3b647e19d0b8b76d623d8ca33.setContent(html_2102797ae1067d124fc36e73b5298d67);
+            
+        
+
+        marker_89b6000e1b70bc4b5ebf963f23cc617e.bindPopup(popup_da8545d3b647e19d0b8b76d623d8ca33)
+        ;
+
+        
+    
+    
+                marker_89b6000e1b70bc4b5ebf963f23cc617e.setIcon(icon_78fe72272913463af5fbae80f0582e41);
+            
+    
+            var marker_de8df6765cd75fad28912fee28edf6a6 = L.marker(
+                [29.9041259, -90.0533238],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0420a93d5089a118e6ad0959f7b44dd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e6a848ff5950164425b110311e8a30c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7adf0214d54cfb389e627ce1ec362278 = $(`<div id="html_7adf0214d54cfb389e627ce1ec362278" style="width: 100.0%; height: 100.0%;">Gym: Jazzercise</div>`)[0];
+                popup_8e6a848ff5950164425b110311e8a30c.setContent(html_7adf0214d54cfb389e627ce1ec362278);
+            
+        
+
+        marker_de8df6765cd75fad28912fee28edf6a6.bindPopup(popup_8e6a848ff5950164425b110311e8a30c)
+        ;
+
+        
+    
+    
+                marker_de8df6765cd75fad28912fee28edf6a6.setIcon(icon_0420a93d5089a118e6ad0959f7b44dd5);
+            
+    
+            var marker_f7bfb7db9c971382c102191e7528285a = L.marker(
+                [32.6119825, -92.0623117],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_daccbd166b3a8632fc8ee613e19f294d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be2e7f94fd41eb8e716b5b99a3ed34c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eaba8b0bc6542eb68b922adec975b77 = $(`<div id="html_0eaba8b0bc6542eb68b922adec975b77" style="width: 100.0%; height: 100.0%;">Gym: Trinity Cheer Athletics</div>`)[0];
+                popup_be2e7f94fd41eb8e716b5b99a3ed34c1.setContent(html_0eaba8b0bc6542eb68b922adec975b77);
+            
+        
+
+        marker_f7bfb7db9c971382c102191e7528285a.bindPopup(popup_be2e7f94fd41eb8e716b5b99a3ed34c1)
+        ;
+
+        
+    
+    
+                marker_f7bfb7db9c971382c102191e7528285a.setIcon(icon_daccbd166b3a8632fc8ee613e19f294d);
+            
+    
+            var marker_7fe5796df3aedf6e3c3ed5bfea5d0e49 = L.marker(
+                [30.0624504, -90.6975501],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bc219ed4a7a4a70447e0e5d25889888c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1edfb88b6c24ede28f81c3cfcacd7b3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2efa3b64d17aa45bf4ce5e386747326d = $(`<div id="html_2efa3b64d17aa45bf4ce5e386747326d" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_1edfb88b6c24ede28f81c3cfcacd7b3a.setContent(html_2efa3b64d17aa45bf4ce5e386747326d);
+            
+        
+
+        marker_7fe5796df3aedf6e3c3ed5bfea5d0e49.bindPopup(popup_1edfb88b6c24ede28f81c3cfcacd7b3a)
+        ;
+
+        
+    
+    
+                marker_7fe5796df3aedf6e3c3ed5bfea5d0e49.setIcon(icon_bc219ed4a7a4a70447e0e5d25889888c);
+            
+    
+            var marker_51a60045d160c01cc2a54429676666c2 = L.marker(
+                [30.3193812, -90.9791859],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_fef3b6bbc58b12edafd6c8173c3fec47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4bc9415a35994a11a58dc8d24a9770a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_088549423e3fb5dc7b9688f4b6ed8da2 = $(`<div id="html_088549423e3fb5dc7b9688f4b6ed8da2" style="width: 100.0%; height: 100.0%;">Gym: Gold's Gym</div>`)[0];
+                popup_e4bc9415a35994a11a58dc8d24a9770a.setContent(html_088549423e3fb5dc7b9688f4b6ed8da2);
+            
+        
+
+        marker_51a60045d160c01cc2a54429676666c2.bindPopup(popup_e4bc9415a35994a11a58dc8d24a9770a)
+        ;
+
+        
+    
+    
+                marker_51a60045d160c01cc2a54429676666c2.setIcon(icon_fef3b6bbc58b12edafd6c8173c3fec47);
+            
+    
+            var marker_230010b4fcb5a62ba5d73c2b7c80821a = L.marker(
+                [30.4608169, -91.0495587],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_f966fabf3f7481ff1ef5b512f10a99c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55782755f8c8ebe16334a6fafd128eec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b15f07d9b9b88dcba9691bca5462d03f = $(`<div id="html_b15f07d9b9b88dcba9691bca5462d03f" style="width: 100.0%; height: 100.0%;">Gym: Beat-2-Sleep</div>`)[0];
+                popup_55782755f8c8ebe16334a6fafd128eec.setContent(html_b15f07d9b9b88dcba9691bca5462d03f);
+            
+        
+
+        marker_230010b4fcb5a62ba5d73c2b7c80821a.bindPopup(popup_55782755f8c8ebe16334a6fafd128eec)
+        ;
+
+        
+    
+    
+                marker_230010b4fcb5a62ba5d73c2b7c80821a.setIcon(icon_f966fabf3f7481ff1ef5b512f10a99c5);
+            
+    
+            var marker_051ddf226c8bd7afef8df3e2b09f5be6 = L.marker(
+                [29.9605539, -90.1871682],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_33d0a9286700354c7bfb8656ff43b88c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d90611ead45f8929df9c5ef780f7160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfed4690b30ccd438f890da0ff093a87 = $(`<div id="html_dfed4690b30ccd438f890da0ff093a87" style="width: 100.0%; height: 100.0%;">Gym: Oschner Fitness Center</div>`)[0];
+                popup_9d90611ead45f8929df9c5ef780f7160.setContent(html_dfed4690b30ccd438f890da0ff093a87);
+            
+        
+
+        marker_051ddf226c8bd7afef8df3e2b09f5be6.bindPopup(popup_9d90611ead45f8929df9c5ef780f7160)
+        ;
+
+        
+    
+    
+                marker_051ddf226c8bd7afef8df3e2b09f5be6.setIcon(icon_33d0a9286700354c7bfb8656ff43b88c);
+            
+    
+            var marker_d617dcc54d6ab291ef37b232195f2c5b = L.marker(
+                [30.3616104, -91.0036433],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_cc315a34722085904e26f561e15e658a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66ac3d08f3319831841cf9bf0cca2aa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70c11d0d393a2386b2ee1ebbafbd7654 = $(`<div id="html_70c11d0d393a2386b2ee1ebbafbd7654" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_66ac3d08f3319831841cf9bf0cca2aa4.setContent(html_70c11d0d393a2386b2ee1ebbafbd7654);
+            
+        
+
+        marker_d617dcc54d6ab291ef37b232195f2c5b.bindPopup(popup_66ac3d08f3319831841cf9bf0cca2aa4)
+        ;
+
+        
+    
+    
+                marker_d617dcc54d6ab291ef37b232195f2c5b.setIcon(icon_cc315a34722085904e26f561e15e658a);
+            
+    
+            var marker_91d7c06c916cda78ca87282d88dd0a41 = L.marker(
+                [30.3959314, -91.1585338],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_8cd2878da506537c92b7eb94ef6e5c72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23908ff519812bf850557a8974df5a26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f941433985556ec49771dd50ec292881 = $(`<div id="html_f941433985556ec49771dd50ec292881" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_23908ff519812bf850557a8974df5a26.setContent(html_f941433985556ec49771dd50ec292881);
+            
+        
+
+        marker_91d7c06c916cda78ca87282d88dd0a41.bindPopup(popup_23908ff519812bf850557a8974df5a26)
+        ;
+
+        
+    
+    
+                marker_91d7c06c916cda78ca87282d88dd0a41.setIcon(icon_8cd2878da506537c92b7eb94ef6e5c72);
+            
+    
+            var marker_9ba7c6525cfe0c4b2fa4f3b62f19022b = L.marker(
+                [29.964225, -90.1861292],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_b9649dab9d12286b40ecd5213702caa9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ddef9765e18ca3ce2615bb86720bae23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d176f9379f8c3ed6cbcc5194e23198a = $(`<div id="html_4d176f9379f8c3ed6cbcc5194e23198a" style="width: 100.0%; height: 100.0%;">Gym: Hour Blast</div>`)[0];
+                popup_ddef9765e18ca3ce2615bb86720bae23.setContent(html_4d176f9379f8c3ed6cbcc5194e23198a);
+            
+        
+
+        marker_9ba7c6525cfe0c4b2fa4f3b62f19022b.bindPopup(popup_ddef9765e18ca3ce2615bb86720bae23)
+        ;
+
+        
+    
+    
+                marker_9ba7c6525cfe0c4b2fa4f3b62f19022b.setIcon(icon_b9649dab9d12286b40ecd5213702caa9);
+            
+    
+            var marker_26079a4239dfd337eb89a13f704b0d5e = L.marker(
+                [29.8013168, -90.8198265],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_049a4272b8411087345c56b1a1797d2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae9a5e0739790490135dcc1c90184d90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b19c2694dc3d1e04915500bfc45ebf7 = $(`<div id="html_2b19c2694dc3d1e04915500bfc45ebf7" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_ae9a5e0739790490135dcc1c90184d90.setContent(html_2b19c2694dc3d1e04915500bfc45ebf7);
+            
+        
+
+        marker_26079a4239dfd337eb89a13f704b0d5e.bindPopup(popup_ae9a5e0739790490135dcc1c90184d90)
+        ;
+
+        
+    
+    
+                marker_26079a4239dfd337eb89a13f704b0d5e.setIcon(icon_049a4272b8411087345c56b1a1797d2f);
+            
+    
+            var marker_da213669b8316927a45e316b7625b27d = L.marker(
+                [30.0070739, -90.2257682],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_2249e7d88edb5022c31521c55c9c89e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5e36d832e5c263e10cd66ec7325fd08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d392ddca721e6c48972c62cace9a70bf = $(`<div id="html_d392ddca721e6c48972c62cace9a70bf" style="width: 100.0%; height: 100.0%;">Gym: Jazzercise</div>`)[0];
+                popup_b5e36d832e5c263e10cd66ec7325fd08.setContent(html_d392ddca721e6c48972c62cace9a70bf);
+            
+        
+
+        marker_da213669b8316927a45e316b7625b27d.bindPopup(popup_b5e36d832e5c263e10cd66ec7325fd08)
+        ;
+
+        
+    
+    
+                marker_da213669b8316927a45e316b7625b27d.setIcon(icon_2249e7d88edb5022c31521c55c9c89e4);
+            
+    
+            var marker_1269f98195074666d6df07600ad57ae2 = L.marker(
+                [30.283066, -90.922149],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_e3906e929895e669cb720a02208dfb9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc50a045437584f08037fc29ef454af7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_723fcf487bc05888ff0ce760c520745c = $(`<div id="html_723fcf487bc05888ff0ce760c520745c" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_bc50a045437584f08037fc29ef454af7.setContent(html_723fcf487bc05888ff0ce760c520745c);
+            
+        
+
+        marker_1269f98195074666d6df07600ad57ae2.bindPopup(popup_bc50a045437584f08037fc29ef454af7)
+        ;
+
+        
+    
+    
+                marker_1269f98195074666d6df07600ad57ae2.setIcon(icon_e3906e929895e669cb720a02208dfb9a);
+            
+    
+            var marker_ff95548ea893976d2f7339ea484402fd = L.marker(
+                [29.9347333, -90.1057787],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_e0297d330cb565f37591a51e4e9d23ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1824fa599787dd4f195288891e47d8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afe86b25ce812dc88f8b43b3257882a8 = $(`<div id="html_afe86b25ce812dc88f8b43b3257882a8" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_e1824fa599787dd4f195288891e47d8e.setContent(html_afe86b25ce812dc88f8b43b3257882a8);
+            
+        
+
+        marker_ff95548ea893976d2f7339ea484402fd.bindPopup(popup_e1824fa599787dd4f195288891e47d8e)
+        ;
+
+        
+    
+    
+                marker_ff95548ea893976d2f7339ea484402fd.setIcon(icon_e0297d330cb565f37591a51e4e9d23ec);
+            
+    
+            var marker_070821a001dd505f1514b1c902ef55f0 = L.marker(
+                [29.9162424, -90.1127091],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_b04c74a703ce8c8bd83c0c2a86ccbb60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6d86a45984561e0f5bb644eb9466cae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_735bcb4b58613ce8641749e466b5cc5e = $(`<div id="html_735bcb4b58613ce8641749e466b5cc5e" style="width: 100.0%; height: 100.0%;">Gym: Orangetheory Fitness</div>`)[0];
+                popup_a6d86a45984561e0f5bb644eb9466cae.setContent(html_735bcb4b58613ce8641749e466b5cc5e);
+            
+        
+
+        marker_070821a001dd505f1514b1c902ef55f0.bindPopup(popup_a6d86a45984561e0f5bb644eb9466cae)
+        ;
+
+        
+    
+    
+                marker_070821a001dd505f1514b1c902ef55f0.setIcon(icon_b04c74a703ce8c8bd83c0c2a86ccbb60);
+            
+    
+            var marker_537909fcdd171e2f0a1cb2312b1f5e2a = L.marker(
+                [30.0036094, -90.1705698],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_5b13a9b3cdea6393c0f69886485d9cf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e94d831825048635f74bef1e3a3113f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c02d3785d2758b4676e3332e324a3448 = $(`<div id="html_c02d3785d2758b4676e3332e324a3448" style="width: 100.0%; height: 100.0%;">Gym: Yoga Lightspace</div>`)[0];
+                popup_4e94d831825048635f74bef1e3a3113f.setContent(html_c02d3785d2758b4676e3332e324a3448);
+            
+        
+
+        marker_537909fcdd171e2f0a1cb2312b1f5e2a.bindPopup(popup_4e94d831825048635f74bef1e3a3113f)
+        ;
+
+        
+    
+    
+                marker_537909fcdd171e2f0a1cb2312b1f5e2a.setIcon(icon_5b13a9b3cdea6393c0f69886485d9cf7);
+            
+    
+            var marker_e6c8832416735731d592bd1908ec06c8 = L.marker(
+                [30.003324, -90.1690107],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_41f83c1da12fb6c1fbbf8ed34a3bdf95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf236c348b7df28f2891f1f8ea1fc48a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcc87bff3a76fd527d8337fe1e51f5dc = $(`<div id="html_dcc87bff3a76fd527d8337fe1e51f5dc" style="width: 100.0%; height: 100.0%;">Gym: HotWorx</div>`)[0];
+                popup_cf236c348b7df28f2891f1f8ea1fc48a.setContent(html_dcc87bff3a76fd527d8337fe1e51f5dc);
+            
+        
+
+        marker_e6c8832416735731d592bd1908ec06c8.bindPopup(popup_cf236c348b7df28f2891f1f8ea1fc48a)
+        ;
+
+        
+    
+    
+                marker_e6c8832416735731d592bd1908ec06c8.setIcon(icon_41f83c1da12fb6c1fbbf8ed34a3bdf95);
+            
+    
+            var marker_75ffdd513a39df7cf695591e1bf68a47 = L.marker(
+                [29.944452, -90.1846243],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_34a73bf3d18a3b0ed04333f6b6fc124c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_544d19dcbddfc11dedcfdb20b9d43174 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0640833f89619d8fcb0359f6e3bd7ae1 = $(`<div id="html_0640833f89619d8fcb0359f6e3bd7ae1" style="width: 100.0%; height: 100.0%;">Gym: Triumph Fitness</div>`)[0];
+                popup_544d19dcbddfc11dedcfdb20b9d43174.setContent(html_0640833f89619d8fcb0359f6e3bd7ae1);
+            
+        
+
+        marker_75ffdd513a39df7cf695591e1bf68a47.bindPopup(popup_544d19dcbddfc11dedcfdb20b9d43174)
+        ;
+
+        
+    
+    
+                marker_75ffdd513a39df7cf695591e1bf68a47.setIcon(icon_34a73bf3d18a3b0ed04333f6b6fc124c);
+            
+    
+            var marker_36785b28262807668f58ff85b35bf0a0 = L.marker(
+                [30.0227276, -90.2546107],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_6570c7a8afd36d24c189fd27a2af8bbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f8f4b326187e96a6f28e2bba1d50bad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_175b75336c0974677c1144007253d0bb = $(`<div id="html_175b75336c0974677c1144007253d0bb" style="width: 100.0%; height: 100.0%;">Gym: Club 4 Fitness</div>`)[0];
+                popup_0f8f4b326187e96a6f28e2bba1d50bad.setContent(html_175b75336c0974677c1144007253d0bb);
+            
+        
+
+        marker_36785b28262807668f58ff85b35bf0a0.bindPopup(popup_0f8f4b326187e96a6f28e2bba1d50bad)
+        ;
+
+        
+    
+    
+                marker_36785b28262807668f58ff85b35bf0a0.setIcon(icon_6570c7a8afd36d24c189fd27a2af8bbe);
+            
+    
+            var marker_687f4e0e96dc28d9f8d10a4aa57b4e3f = L.marker(
+                [30.021344, -90.2555644],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_17b38040cc972f12ceeea0e30eb6db4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a73f455b7c23affe8decd0b9525a4011 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578c21a76c6a07ed4adb3db140357b8c = $(`<div id="html_578c21a76c6a07ed4adb3db140357b8c" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_a73f455b7c23affe8decd0b9525a4011.setContent(html_578c21a76c6a07ed4adb3db140357b8c);
+            
+        
+
+        marker_687f4e0e96dc28d9f8d10a4aa57b4e3f.bindPopup(popup_a73f455b7c23affe8decd0b9525a4011)
+        ;
+
+        
+    
+    
+                marker_687f4e0e96dc28d9f8d10a4aa57b4e3f.setIcon(icon_17b38040cc972f12ceeea0e30eb6db4b);
+            
+    
+            var marker_73734597655cf6d77e29439672ca4a20 = L.marker(
+                [30.0275948, -89.9938332],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_53fc0dc5d65c5af574366fea16e168c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94b927209af07acbb3373c96cbae88dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_456f7faa785fc9d56e98f7221492b246 = $(`<div id="html_456f7faa785fc9d56e98f7221492b246" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_94b927209af07acbb3373c96cbae88dc.setContent(html_456f7faa785fc9d56e98f7221492b246);
+            
+        
+
+        marker_73734597655cf6d77e29439672ca4a20.bindPopup(popup_94b927209af07acbb3373c96cbae88dc)
+        ;
+
+        
+    
+    
+                marker_73734597655cf6d77e29439672ca4a20.setIcon(icon_53fc0dc5d65c5af574366fea16e168c0);
+            
+    
+            var marker_a632407374530b540faf9e5f4710d98e = L.marker(
+                [30.0119068, -90.1584253],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d13bfbc9434b49b6e6bb7f95db21be79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1b269c6c14980ee3ff16adfdc077463 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc2b3733dd24aac8bd22a84d50843930 = $(`<div id="html_dc2b3733dd24aac8bd22a84d50843930" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_c1b269c6c14980ee3ff16adfdc077463.setContent(html_dc2b3733dd24aac8bd22a84d50843930);
+            
+        
+
+        marker_a632407374530b540faf9e5f4710d98e.bindPopup(popup_c1b269c6c14980ee3ff16adfdc077463)
+        ;
+
+        
+    
+    
+                marker_a632407374530b540faf9e5f4710d98e.setIcon(icon_d13bfbc9434b49b6e6bb7f95db21be79);
+            
+    
+            var marker_225027501d62e781768a8cfc22879e08 = L.marker(
+                [30.0130949, -90.1582448],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_cc44e3f28215b5e202dfe64044116af4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba4768a0bf82a0dc902aa96894d5584d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e43b698ffa4ea5e24cba540aa262309 = $(`<div id="html_7e43b698ffa4ea5e24cba540aa262309" style="width: 100.0%; height: 100.0%;">Gym: Ascension Fitness</div>`)[0];
+                popup_ba4768a0bf82a0dc902aa96894d5584d.setContent(html_7e43b698ffa4ea5e24cba540aa262309);
+            
+        
+
+        marker_225027501d62e781768a8cfc22879e08.bindPopup(popup_ba4768a0bf82a0dc902aa96894d5584d)
+        ;
+
+        
+    
+    
+                marker_225027501d62e781768a8cfc22879e08.setIcon(icon_cc44e3f28215b5e202dfe64044116af4);
+            
+    
+            var marker_e33b8b54b8a9c8193d768fde86de9601 = L.marker(
+                [30.0159778, -90.1901932],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_5dd78ef1023b7f87a950b4a3e6acf538 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32cf169d9e695a8565c3fb70926f54b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9329b57b12f8e6d71671e56a012fbb2 = $(`<div id="html_a9329b57b12f8e6d71671e56a012fbb2" style="width: 100.0%; height: 100.0%;">Gym: Champs Boxing</div>`)[0];
+                popup_32cf169d9e695a8565c3fb70926f54b5.setContent(html_a9329b57b12f8e6d71671e56a012fbb2);
+            
+        
+
+        marker_e33b8b54b8a9c8193d768fde86de9601.bindPopup(popup_32cf169d9e695a8565c3fb70926f54b5)
+        ;
+
+        
+    
+    
+                marker_e33b8b54b8a9c8193d768fde86de9601.setIcon(icon_5dd78ef1023b7f87a950b4a3e6acf538);
+            
+    
+            var marker_f4ab5ee321f1a1f660003a7b35967f15 = L.marker(
+                [30.3696963, -90.0721682],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0a83e0e2d67d18a2decd7566badd8e31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_560428ea686188bb52c7c5033e064d33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d4bbc561a632b345bddaeb49ed66002 = $(`<div id="html_8d4bbc561a632b345bddaeb49ed66002" style="width: 100.0%; height: 100.0%;">Gym: Innovative Boxing</div>`)[0];
+                popup_560428ea686188bb52c7c5033e064d33.setContent(html_8d4bbc561a632b345bddaeb49ed66002);
+            
+        
+
+        marker_f4ab5ee321f1a1f660003a7b35967f15.bindPopup(popup_560428ea686188bb52c7c5033e064d33)
+        ;
+
+        
+    
+    
+                marker_f4ab5ee321f1a1f660003a7b35967f15.setIcon(icon_0a83e0e2d67d18a2decd7566badd8e31);
+            
+    
+            var marker_3b9daabf19613f45f3eb3cbb1b78c7d5 = L.marker(
+                [29.9794566, -90.1566],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_82efe5bbb69ffe4991fd09dee39b80ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d5eccd212e78e1a5b690f40fc7f111e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da984b3828ca6965b2a553149112c415 = $(`<div id="html_da984b3828ca6965b2a553149112c415" style="width: 100.0%; height: 100.0%;">Gym: Authentic Strength & Performance Institute</div>`)[0];
+                popup_2d5eccd212e78e1a5b690f40fc7f111e.setContent(html_da984b3828ca6965b2a553149112c415);
+            
+        
+
+        marker_3b9daabf19613f45f3eb3cbb1b78c7d5.bindPopup(popup_2d5eccd212e78e1a5b690f40fc7f111e)
+        ;
+
+        
+    
+    
+                marker_3b9daabf19613f45f3eb3cbb1b78c7d5.setIcon(icon_82efe5bbb69ffe4991fd09dee39b80ef);
+            
+    
+            var marker_3e0dd1cd6f03818eebde0ac06ae190c0 = L.marker(
+                [30.006638, -90.1963809],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_a7e37d6de6dac36d0b4fd5f15d01faa3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57fd3b52944c0716b678b34166d07956 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92788498bb6e9a5bf488588cdda62546 = $(`<div id="html_92788498bb6e9a5bf488588cdda62546" style="width: 100.0%; height: 100.0%;">Gym: Title Boxing Club</div>`)[0];
+                popup_57fd3b52944c0716b678b34166d07956.setContent(html_92788498bb6e9a5bf488588cdda62546);
+            
+        
+
+        marker_3e0dd1cd6f03818eebde0ac06ae190c0.bindPopup(popup_57fd3b52944c0716b678b34166d07956)
+        ;
+
+        
+    
+    
+                marker_3e0dd1cd6f03818eebde0ac06ae190c0.setIcon(icon_a7e37d6de6dac36d0b4fd5f15d01faa3);
+            
+    
+            var marker_0fbe72a3d23d7224b98585ac1d4fdaf0 = L.marker(
+                [30.3563433, -90.9926948],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_162be0d7855f0c499442194f05f848fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57d1860afb7401f4d8df28b3e1d57cf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d886bcf5f2da054a05b9d26b71611e4 = $(`<div id="html_1d886bcf5f2da054a05b9d26b71611e4" style="width: 100.0%; height: 100.0%;">Gym: Hyper Fitness</div>`)[0];
+                popup_57d1860afb7401f4d8df28b3e1d57cf1.setContent(html_1d886bcf5f2da054a05b9d26b71611e4);
+            
+        
+
+        marker_0fbe72a3d23d7224b98585ac1d4fdaf0.bindPopup(popup_57d1860afb7401f4d8df28b3e1d57cf1)
+        ;
+
+        
+    
+    
+                marker_0fbe72a3d23d7224b98585ac1d4fdaf0.setIcon(icon_162be0d7855f0c499442194f05f848fd);
+            
+    
+            var marker_2de9bd8734dd76c5ce9c5bf394c993af = L.marker(
+                [30.3391109, -90.9885756],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_2fae8774528fedbb7f978e2d23645fae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16760549a146e5ec83ac6c90b8e69662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7603bbcbfb9c2f16db26938e3046e70 = $(`<div id="html_b7603bbcbfb9c2f16db26938e3046e70" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_16760549a146e5ec83ac6c90b8e69662.setContent(html_b7603bbcbfb9c2f16db26938e3046e70);
+            
+        
+
+        marker_2de9bd8734dd76c5ce9c5bf394c993af.bindPopup(popup_16760549a146e5ec83ac6c90b8e69662)
+        ;
+
+        
+    
+    
+                marker_2de9bd8734dd76c5ce9c5bf394c993af.setIcon(icon_2fae8774528fedbb7f978e2d23645fae);
+            
+    
+            var marker_750756a0a78d737f43ce6a4031f69b03 = L.marker(
+                [30.3391941, -90.9887873],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_b4339df0f4b41db84aea1369829cb6d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b49747fbd2cc7d92c85c24e5be50773 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3df5a6aad982835136278e98c971a88d = $(`<div id="html_3df5a6aad982835136278e98c971a88d" style="width: 100.0%; height: 100.0%;">Gym: Barre Studio</div>`)[0];
+                popup_1b49747fbd2cc7d92c85c24e5be50773.setContent(html_3df5a6aad982835136278e98c971a88d);
+            
+        
+
+        marker_750756a0a78d737f43ce6a4031f69b03.bindPopup(popup_1b49747fbd2cc7d92c85c24e5be50773)
+        ;
+
+        
+    
+    
+                marker_750756a0a78d737f43ce6a4031f69b03.setIcon(icon_b4339df0f4b41db84aea1369829cb6d9);
+            
+    
+            var marker_b68562cc5088c2adbd674620edeabbc7 = L.marker(
+                [30.3276603, -90.9808697],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_9d277d034520d4fac3e81e351f6a5cb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f3237a1aa7ccaf4108d9af7613644a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6524c87bf054e709a015c9ee2024a63 = $(`<div id="html_a6524c87bf054e709a015c9ee2024a63" style="width: 100.0%; height: 100.0%;">Gym: Jazzercise</div>`)[0];
+                popup_8f3237a1aa7ccaf4108d9af7613644a1.setContent(html_a6524c87bf054e709a015c9ee2024a63);
+            
+        
+
+        marker_b68562cc5088c2adbd674620edeabbc7.bindPopup(popup_8f3237a1aa7ccaf4108d9af7613644a1)
+        ;
+
+        
+    
+    
+                marker_b68562cc5088c2adbd674620edeabbc7.setIcon(icon_9d277d034520d4fac3e81e351f6a5cb4);
+            
+    
+            var marker_481f78e04302a653e2674e4dd3a4f807 = L.marker(
+                [30.4537058, -91.079719],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_930d07521416caf48dc9f2ca214eebf2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67d0bb6edafb40bfc2f3d048a0d9f609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbbf45c6d1dcd30f113c1a1940b08114 = $(`<div id="html_fbbf45c6d1dcd30f113c1a1940b08114" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_67d0bb6edafb40bfc2f3d048a0d9f609.setContent(html_fbbf45c6d1dcd30f113c1a1940b08114);
+            
+        
+
+        marker_481f78e04302a653e2674e4dd3a4f807.bindPopup(popup_67d0bb6edafb40bfc2f3d048a0d9f609)
+        ;
+
+        
+    
+    
+                marker_481f78e04302a653e2674e4dd3a4f807.setIcon(icon_930d07521416caf48dc9f2ca214eebf2);
+            
+    
+            var marker_9d96c25e7223f455335ccde0a047860b = L.marker(
+                [30.4326732, -91.1146174],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_6404856a2b505ca26133e1c03e57822f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_98db64f55288219d5be46664af61fb55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03b9bb38fe29833f404e4aeee381e287 = $(`<div id="html_03b9bb38fe29833f404e4aeee381e287" style="width: 100.0%; height: 100.0%;">Gym: Orangetheory Fitness</div>`)[0];
+                popup_98db64f55288219d5be46664af61fb55.setContent(html_03b9bb38fe29833f404e4aeee381e287);
+            
+        
+
+        marker_9d96c25e7223f455335ccde0a047860b.bindPopup(popup_98db64f55288219d5be46664af61fb55)
+        ;
+
+        
+    
+    
+                marker_9d96c25e7223f455335ccde0a047860b.setIcon(icon_6404856a2b505ca26133e1c03e57822f);
+            
+    
+            var marker_8b67aa2371ec45bf6590632ece488b66 = L.marker(
+                [30.4333782, -91.1123191],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_e75dc12726550f61e818bd8651bace5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_875e3bd5148ce2ac5385e746184b3763 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4527ad8dc167ac83064ab10fe070801 = $(`<div id="html_f4527ad8dc167ac83064ab10fe070801" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_875e3bd5148ce2ac5385e746184b3763.setContent(html_f4527ad8dc167ac83064ab10fe070801);
+            
+        
+
+        marker_8b67aa2371ec45bf6590632ece488b66.bindPopup(popup_875e3bd5148ce2ac5385e746184b3763)
+        ;
+
+        
+    
+    
+                marker_8b67aa2371ec45bf6590632ece488b66.setIcon(icon_e75dc12726550f61e818bd8651bace5f);
+            
+    
+            var marker_069a0f1373b5efddcbbfdd8fa49e921e = L.marker(
+                [30.0182679, -90.232412],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0fa84717753eeb5f4c5e8ccccf3ef5af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5441794b4706b2fb078a36c17a77391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69ccbf5f3703b198a4b5cc5264baabfb = $(`<div id="html_69ccbf5f3703b198a4b5cc5264baabfb" style="width: 100.0%; height: 100.0%;">Gym: The Zoo</div>`)[0];
+                popup_c5441794b4706b2fb078a36c17a77391.setContent(html_69ccbf5f3703b198a4b5cc5264baabfb);
+            
+        
+
+        marker_069a0f1373b5efddcbbfdd8fa49e921e.bindPopup(popup_c5441794b4706b2fb078a36c17a77391)
+        ;
+
+        
+    
+    
+                marker_069a0f1373b5efddcbbfdd8fa49e921e.setIcon(icon_0fa84717753eeb5f4c5e8ccccf3ef5af);
+            
+    
+            var marker_dd1712838f6edbab7adb6d73bcd404ff = L.marker(
+                [30.0372336, -90.2391246],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_1e3c4441aaf9c35b3200a0b09d0fa498 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfe7b70c8939cda9e9bfa76eaf5f25a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9d83f76439b9c3a13e0c9658360b753 = $(`<div id="html_d9d83f76439b9c3a13e0c9658360b753" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_dfe7b70c8939cda9e9bfa76eaf5f25a8.setContent(html_d9d83f76439b9c3a13e0c9658360b753);
+            
+        
+
+        marker_dd1712838f6edbab7adb6d73bcd404ff.bindPopup(popup_dfe7b70c8939cda9e9bfa76eaf5f25a8)
+        ;
+
+        
+    
+    
+                marker_dd1712838f6edbab7adb6d73bcd404ff.setIcon(icon_1e3c4441aaf9c35b3200a0b09d0fa498);
+            
+    
+            var marker_325c94e8cd7b91b862ca30219266dd62 = L.marker(
+                [30.3997421, -91.1154996],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bfc63acb4428e622bf3aea436c8e6863 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82af6392ed6ff4ccfc0a755aff23733c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efd46f9cb7532e3142e84dc129889ffc = $(`<div id="html_efd46f9cb7532e3142e84dc129889ffc" style="width: 100.0%; height: 100.0%;">Gym: Spectrum Fitness</div>`)[0];
+                popup_82af6392ed6ff4ccfc0a755aff23733c.setContent(html_efd46f9cb7532e3142e84dc129889ffc);
+            
+        
+
+        marker_325c94e8cd7b91b862ca30219266dd62.bindPopup(popup_82af6392ed6ff4ccfc0a755aff23733c)
+        ;
+
+        
+    
+    
+                marker_325c94e8cd7b91b862ca30219266dd62.setIcon(icon_bfc63acb4428e622bf3aea436c8e6863);
+            
+    
+            var marker_86608c09c4a3df2b646877ebff71cb71 = L.marker(
+                [29.9073508, -90.3635423],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d83a9780f0d01b7fdcede477dfb17970 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_562282c64b37918c2dea47696801fea0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_383c681831ad6878619f27db5bbf6e80 = $(`<div id="html_383c681831ad6878619f27db5bbf6e80" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_562282c64b37918c2dea47696801fea0.setContent(html_383c681831ad6878619f27db5bbf6e80);
+            
+        
+
+        marker_86608c09c4a3df2b646877ebff71cb71.bindPopup(popup_562282c64b37918c2dea47696801fea0)
+        ;
+
+        
+    
+    
+                marker_86608c09c4a3df2b646877ebff71cb71.setIcon(icon_d83a9780f0d01b7fdcede477dfb17970);
+            
+    
+            var marker_6e7741d9d2569b04634ebef10d01dd69 = L.marker(
+                [29.9695543, -90.3767917],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_8c306701b0980b0461f1596f1593b879 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_044cb3a5f5fb5b90a8cdf9419f478df6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff08524091a7976ed85fe8a78ff5c23 = $(`<div id="html_eff08524091a7976ed85fe8a78ff5c23" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_044cb3a5f5fb5b90a8cdf9419f478df6.setContent(html_eff08524091a7976ed85fe8a78ff5c23);
+            
+        
+
+        marker_6e7741d9d2569b04634ebef10d01dd69.bindPopup(popup_044cb3a5f5fb5b90a8cdf9419f478df6)
+        ;
+
+        
+    
+    
+                marker_6e7741d9d2569b04634ebef10d01dd69.setIcon(icon_8c306701b0980b0461f1596f1593b879);
+            
+    
+            var marker_02b5e4b2862e3717d2b9bdf12338fb13 = L.marker(
+                [29.9862413, -90.3641564],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_728d67ca9f826bb3e2653e6595a5909c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c86349632ddc536417c24e4967dfde5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c41892eb2ebce06942e0537729a1ee4a = $(`<div id="html_c41892eb2ebce06942e0537729a1ee4a" style="width: 100.0%; height: 100.0%;">Gym: Pulse Fitness</div>`)[0];
+                popup_9c86349632ddc536417c24e4967dfde5.setContent(html_c41892eb2ebce06942e0537729a1ee4a);
+            
+        
+
+        marker_02b5e4b2862e3717d2b9bdf12338fb13.bindPopup(popup_9c86349632ddc536417c24e4967dfde5)
+        ;
+
+        
+    
+    
+                marker_02b5e4b2862e3717d2b9bdf12338fb13.setIcon(icon_728d67ca9f826bb3e2653e6595a5909c);
+            
+    
+            var marker_ed21de971390689acfaae58cd1766758 = L.marker(
+                [29.9854227, -90.1034204],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_696d97000111e56cec684b9a7b7e21bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac60e9ac4400b02030dc2398ecf076f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f1a779c2167558573d57f72e6c2d2b0 = $(`<div id="html_7f1a779c2167558573d57f72e6c2d2b0" style="width: 100.0%; height: 100.0%;">Gym: Fitness Center</div>`)[0];
+                popup_ac60e9ac4400b02030dc2398ecf076f6.setContent(html_7f1a779c2167558573d57f72e6c2d2b0);
+            
+        
+
+        marker_ed21de971390689acfaae58cd1766758.bindPopup(popup_ac60e9ac4400b02030dc2398ecf076f6)
+        ;
+
+        
+    
+    
+                marker_ed21de971390689acfaae58cd1766758.setIcon(icon_696d97000111e56cec684b9a7b7e21bf);
+            
+    
+            var marker_b0e4e2fc529a4e2cab5ed733215bc32d = L.marker(
+                [29.9749963, -90.1463749],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_7bdff5979d647389c54a88a9975547ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5af3b2831a30bd0afc733322edebe4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d97daa4080206ffba58f5af1e9fd0ba3 = $(`<div id="html_d97daa4080206ffba58f5af1e9fd0ba3" style="width: 100.0%; height: 100.0%;">Gym: Premier Fitness</div>`)[0];
+                popup_c5af3b2831a30bd0afc733322edebe4d.setContent(html_d97daa4080206ffba58f5af1e9fd0ba3);
+            
+        
+
+        marker_b0e4e2fc529a4e2cab5ed733215bc32d.bindPopup(popup_c5af3b2831a30bd0afc733322edebe4d)
+        ;
+
+        
+    
+    
+                marker_b0e4e2fc529a4e2cab5ed733215bc32d.setIcon(icon_7bdff5979d647389c54a88a9975547ae);
+            
+    
+            var marker_82408aa54a209463aae21264ec389ddf = L.marker(
+                [29.975163, -90.1525662],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_7fce5a3dd1debc2771bfe5da9b0e19ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ba9d52f2578d166dd025a0fcb625a7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1779b17c19f641cc11264905f2acebce = $(`<div id="html_1779b17c19f641cc11264905f2acebce" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_2ba9d52f2578d166dd025a0fcb625a7c.setContent(html_1779b17c19f641cc11264905f2acebce);
+            
+        
+
+        marker_82408aa54a209463aae21264ec389ddf.bindPopup(popup_2ba9d52f2578d166dd025a0fcb625a7c)
+        ;
+
+        
+    
+    
+                marker_82408aa54a209463aae21264ec389ddf.setIcon(icon_7fce5a3dd1debc2771bfe5da9b0e19ab);
+            
+    
+            var marker_1ad2dae07dc947c453fd0c8c9f72efab = L.marker(
+                [29.9875343, -90.1300532],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_00246b18af863d7b319ed55efd7c14ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4aaf8df8de74701a0e40d426ed1b7b57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_147d6ffd41b97536acb5aa017c7187be = $(`<div id="html_147d6ffd41b97536acb5aa017c7187be" style="width: 100.0%; height: 100.0%;">Gym: Pilates Loft</div>`)[0];
+                popup_4aaf8df8de74701a0e40d426ed1b7b57.setContent(html_147d6ffd41b97536acb5aa017c7187be);
+            
+        
+
+        marker_1ad2dae07dc947c453fd0c8c9f72efab.bindPopup(popup_4aaf8df8de74701a0e40d426ed1b7b57)
+        ;
+
+        
+    
+    
+                marker_1ad2dae07dc947c453fd0c8c9f72efab.setIcon(icon_00246b18af863d7b319ed55efd7c14ec);
+            
+    
+            var marker_8ad8536406780677d56dea0cf457cb2b = L.marker(
+                [29.9877216, -90.1301373],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_b1d0a95c0a1b7dc9c8c9fc65eb8cac7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec84abf532275fb6f038f8ed25704cb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec165c5707d71db33d39fbea6f4aa50a = $(`<div id="html_ec165c5707d71db33d39fbea6f4aa50a" style="width: 100.0%; height: 100.0%;">Gym: Hour Blast</div>`)[0];
+                popup_ec84abf532275fb6f038f8ed25704cb9.setContent(html_ec165c5707d71db33d39fbea6f4aa50a);
+            
+        
+
+        marker_8ad8536406780677d56dea0cf457cb2b.bindPopup(popup_ec84abf532275fb6f038f8ed25704cb9)
+        ;
+
+        
+    
+    
+                marker_8ad8536406780677d56dea0cf457cb2b.setIcon(icon_b1d0a95c0a1b7dc9c8c9fc65eb8cac7f);
+            
+    
+            var marker_8ecb925e30ca9ce4e05f33fa2df01e11 = L.marker(
+                [30.0074432, -90.044642],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_f48fe6792cda5b39ca8eeb5193fcab60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c662bdbd692815790bb5a30b1aba27d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5682c2239fbbe851bdf8cdcc27983b7 = $(`<div id="html_a5682c2239fbbe851bdf8cdcc27983b7" style="width: 100.0%; height: 100.0%;">Gym: Seminary Gymnasium</div>`)[0];
+                popup_9c662bdbd692815790bb5a30b1aba27d.setContent(html_a5682c2239fbbe851bdf8cdcc27983b7);
+            
+        
+
+        marker_8ecb925e30ca9ce4e05f33fa2df01e11.bindPopup(popup_9c662bdbd692815790bb5a30b1aba27d)
+        ;
+
+        
+    
+    
+                marker_8ecb925e30ca9ce4e05f33fa2df01e11.setIcon(icon_f48fe6792cda5b39ca8eeb5193fcab60);
+            
+    
+            var marker_0a0f6ba03460be1e4b4d33ab15863694 = L.marker(
+                [32.5046791, -92.1602713],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bd7c0fdce691ee48842a68d1bde394e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03d04fea32ca398760754ca6b14ae7f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_044a88da67b9e0de08f871ee96cbc2e0 = $(`<div id="html_044a88da67b9e0de08f871ee96cbc2e0" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_03d04fea32ca398760754ca6b14ae7f1.setContent(html_044a88da67b9e0de08f871ee96cbc2e0);
+            
+        
+
+        marker_0a0f6ba03460be1e4b4d33ab15863694.bindPopup(popup_03d04fea32ca398760754ca6b14ae7f1)
+        ;
+
+        
+    
+    
+                marker_0a0f6ba03460be1e4b4d33ab15863694.setIcon(icon_bd7c0fdce691ee48842a68d1bde394e1);
+            
+    
+            var marker_93e1ce20d6a102ab626d231ca5ca4e53 = L.marker(
+                [30.3620683, -91.0124751],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_370b48a62a26de7b7b0a178513c94e17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_213c03b3ca70c0f512cabda62b9e2c40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34101358c91905db69508fbb44d878eb = $(`<div id="html_34101358c91905db69508fbb44d878eb" style="width: 100.0%; height: 100.0%;">Gym: Orangetheory Fitness</div>`)[0];
+                popup_213c03b3ca70c0f512cabda62b9e2c40.setContent(html_34101358c91905db69508fbb44d878eb);
+            
+        
+
+        marker_93e1ce20d6a102ab626d231ca5ca4e53.bindPopup(popup_213c03b3ca70c0f512cabda62b9e2c40)
+        ;
+
+        
+    
+    
+                marker_93e1ce20d6a102ab626d231ca5ca4e53.setIcon(icon_370b48a62a26de7b7b0a178513c94e17);
+            
+    
+            var marker_06db3b33c2408ded077756f3384c3db4 = L.marker(
+                [32.459695, -91.7609627],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_5b8c5fc8179dc255025bc979d98dcc2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_303e914b6e77967f7e8c01266b49c601 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7578a3ea9cf3b59ef472fed0557a37f = $(`<div id="html_a7578a3ea9cf3b59ef472fed0557a37f" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_303e914b6e77967f7e8c01266b49c601.setContent(html_a7578a3ea9cf3b59ef472fed0557a37f);
+            
+        
+
+        marker_06db3b33c2408ded077756f3384c3db4.bindPopup(popup_303e914b6e77967f7e8c01266b49c601)
+        ;
+
+        
+    
+    
+                marker_06db3b33c2408ded077756f3384c3db4.setIcon(icon_5b8c5fc8179dc255025bc979d98dcc2b);
+            
+    
+            var marker_737a375a5c91b09b66c90a005de4595c = L.marker(
+                [30.3816427, -91.0980052],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_c14fc22b31ec14fa1ba13b45d0563712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e5061fc4c01953392db73aada60e15a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d0d2a898fd320730feffc9b644aeaa6 = $(`<div id="html_4d0d2a898fd320730feffc9b644aeaa6" style="width: 100.0%; height: 100.0%;">Gym: Regymen Fitness</div>`)[0];
+                popup_4e5061fc4c01953392db73aada60e15a.setContent(html_4d0d2a898fd320730feffc9b644aeaa6);
+            
+        
+
+        marker_737a375a5c91b09b66c90a005de4595c.bindPopup(popup_4e5061fc4c01953392db73aada60e15a)
+        ;
+
+        
+    
+    
+                marker_737a375a5c91b09b66c90a005de4595c.setIcon(icon_c14fc22b31ec14fa1ba13b45d0563712);
+            
+    
+            var marker_e3721d4fe1d6f6287f420b389901e2c6 = L.marker(
+                [30.378631, -91.0956946],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_f744775b4696ca4ad9caddebe8891339 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcbff4dcf522ee7b1ae14ac56ad3d362 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_370309832b748e65f28d67609e963de7 = $(`<div id="html_370309832b748e65f28d67609e963de7" style="width: 100.0%; height: 100.0%;">Gym: Esporta Fitness</div>`)[0];
+                popup_dcbff4dcf522ee7b1ae14ac56ad3d362.setContent(html_370309832b748e65f28d67609e963de7);
+            
+        
+
+        marker_e3721d4fe1d6f6287f420b389901e2c6.bindPopup(popup_dcbff4dcf522ee7b1ae14ac56ad3d362)
+        ;
+
+        
+    
+    
+                marker_e3721d4fe1d6f6287f420b389901e2c6.setIcon(icon_f744775b4696ca4ad9caddebe8891339);
+            
+    
+            var marker_e13067ef1fc589257af063e55e5d43b7 = L.marker(
+                [30.3738297, -91.088528],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_8a9389976a0024ba276f3cf5e415682f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5442a33465b47d22de49314f9a033db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6351fdb595478aa7922a2f9467bdd6 = $(`<div id="html_ac6351fdb595478aa7922a2f9467bdd6" style="width: 100.0%; height: 100.0%;">Gym: Evolve Studio</div>`)[0];
+                popup_f5442a33465b47d22de49314f9a033db.setContent(html_ac6351fdb595478aa7922a2f9467bdd6);
+            
+        
+
+        marker_e13067ef1fc589257af063e55e5d43b7.bindPopup(popup_f5442a33465b47d22de49314f9a033db)
+        ;
+
+        
+    
+    
+                marker_e13067ef1fc589257af063e55e5d43b7.setIcon(icon_8a9389976a0024ba276f3cf5e415682f);
+            
+    
+            var marker_21fde4ae82f1e081a3af3e0fa0f34197 = L.marker(
+                [32.523962, -92.1014989],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_7019464b08984ceb3b7a3838248af358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_585df5e0cbc4ced9d00440fdd84deed0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be0af87857d4b5d6139f10af7c3d1a39 = $(`<div id="html_be0af87857d4b5d6139f10af7c3d1a39" style="width: 100.0%; height: 100.0%;">Gym: Moore Health & Fitness</div>`)[0];
+                popup_585df5e0cbc4ced9d00440fdd84deed0.setContent(html_be0af87857d4b5d6139f10af7c3d1a39);
+            
+        
+
+        marker_21fde4ae82f1e081a3af3e0fa0f34197.bindPopup(popup_585df5e0cbc4ced9d00440fdd84deed0)
+        ;
+
+        
+    
+    
+                marker_21fde4ae82f1e081a3af3e0fa0f34197.setIcon(icon_7019464b08984ceb3b7a3838248af358);
+            
+    
+            var marker_6ab35defc94d700af127f52ff2346e19 = L.marker(
+                [32.5358842, -92.1082779],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0f034c1633e5256600776dece479c2e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30d6637f3601da5babf380f6e448fd29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a489a08bb9216c0cde64f3b9ba75df9 = $(`<div id="html_6a489a08bb9216c0cde64f3b9ba75df9" style="width: 100.0%; height: 100.0%;">Gym: The Pilates Room</div>`)[0];
+                popup_30d6637f3601da5babf380f6e448fd29.setContent(html_6a489a08bb9216c0cde64f3b9ba75df9);
+            
+        
+
+        marker_6ab35defc94d700af127f52ff2346e19.bindPopup(popup_30d6637f3601da5babf380f6e448fd29)
+        ;
+
+        
+    
+    
+                marker_6ab35defc94d700af127f52ff2346e19.setIcon(icon_0f034c1633e5256600776dece479c2e4);
+            
+    
+            var marker_864eedbdacbc046c301dc8ae1dff5ad4 = L.marker(
+                [29.9216496, -90.0162909],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ec0b759a7eed20996cc0ec1178eba44e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b71443ee9991fa2dd8cd7ad875f27605 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09118a8f678e7a84bc7d6d1df0ff6e52 = $(`<div id="html_09118a8f678e7a84bc7d6d1df0ff6e52" style="width: 100.0%; height: 100.0%;">Gym: My Fitness Coach</div>`)[0];
+                popup_b71443ee9991fa2dd8cd7ad875f27605.setContent(html_09118a8f678e7a84bc7d6d1df0ff6e52);
+            
+        
+
+        marker_864eedbdacbc046c301dc8ae1dff5ad4.bindPopup(popup_b71443ee9991fa2dd8cd7ad875f27605)
+        ;
+
+        
+    
+    
+                marker_864eedbdacbc046c301dc8ae1dff5ad4.setIcon(icon_ec0b759a7eed20996cc0ec1178eba44e);
+            
+    
+            var marker_f9e2bf1cde4796325f8b2e86f84763e3 = L.marker(
+                [29.9821123, -90.2121984],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bef9994a5089646111f3c60eb4fdb807 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c083b38d3e043c684e10afdedfd233d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d32ab10084ada01ca8b4b4094009959d = $(`<div id="html_d32ab10084ada01ca8b4b4094009959d" style="width: 100.0%; height: 100.0%;">Gym: Fitness Guru NOLA</div>`)[0];
+                popup_4c083b38d3e043c684e10afdedfd233d.setContent(html_d32ab10084ada01ca8b4b4094009959d);
+            
+        
+
+        marker_f9e2bf1cde4796325f8b2e86f84763e3.bindPopup(popup_4c083b38d3e043c684e10afdedfd233d)
+        ;
+
+        
+    
+    
+                marker_f9e2bf1cde4796325f8b2e86f84763e3.setIcon(icon_bef9994a5089646111f3c60eb4fdb807);
+            
+    
+            var marker_14fc6de91800bff35feb5fdae49c8038 = L.marker(
+                [30.2983312, -89.7584738],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ae6dde045d24c9f989b80fcc4d65aa08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef169952b379cc4bffea7aff12266c40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baa04b607bb4f5543081776b0c60abe8 = $(`<div id="html_baa04b607bb4f5543081776b0c60abe8" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_ef169952b379cc4bffea7aff12266c40.setContent(html_baa04b607bb4f5543081776b0c60abe8);
+            
+        
+
+        marker_14fc6de91800bff35feb5fdae49c8038.bindPopup(popup_ef169952b379cc4bffea7aff12266c40)
+        ;
+
+        
+    
+    
+                marker_14fc6de91800bff35feb5fdae49c8038.setIcon(icon_ae6dde045d24c9f989b80fcc4d65aa08);
+            
+    
+            var marker_ee4f8f736764ffbe3d4f8a372a484fc0 = L.marker(
+                [30.3755998, -90.0538485],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bc49f5afe032bab8d496740cb2519a51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f47b1eb76e17247ed88e05174fc4151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cf4d4010c4a43ea52a78ddb6ef9c7b3 = $(`<div id="html_9cf4d4010c4a43ea52a78ddb6ef9c7b3" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_2f47b1eb76e17247ed88e05174fc4151.setContent(html_9cf4d4010c4a43ea52a78ddb6ef9c7b3);
+            
+        
+
+        marker_ee4f8f736764ffbe3d4f8a372a484fc0.bindPopup(popup_2f47b1eb76e17247ed88e05174fc4151)
+        ;
+
+        
+    
+    
+                marker_ee4f8f736764ffbe3d4f8a372a484fc0.setIcon(icon_bc49f5afe032bab8d496740cb2519a51);
+            
+    
+            var marker_8a2bd62939b4d53f658cbee5feab24b0 = L.marker(
+                [30.6264864, -90.1874089],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d975b2dff033154d2a6da0665900fd4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b49d0c356edcebf1717a9c7c47ebe7d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bffd4a71a336f7de82316ee68ea90067 = $(`<div id="html_bffd4a71a336f7de82316ee68ea90067" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_b49d0c356edcebf1717a9c7c47ebe7d9.setContent(html_bffd4a71a336f7de82316ee68ea90067);
+            
+        
+
+        marker_8a2bd62939b4d53f658cbee5feab24b0.bindPopup(popup_b49d0c356edcebf1717a9c7c47ebe7d9)
+        ;
+
+        
+    
+    
+                marker_8a2bd62939b4d53f658cbee5feab24b0.setIcon(icon_d975b2dff033154d2a6da0665900fd4b);
+            
+    
+            var marker_0f651bf95da28ff5b02c78f7bd616550 = L.marker(
+                [30.4374192, -90.9133609],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ecd4757fbd8638a2b3a4870bc67f30bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_086b46a263d1065b248294764f30999a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05e30b5d6a913485eb911804978509cd = $(`<div id="html_05e30b5d6a913485eb911804978509cd" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_086b46a263d1065b248294764f30999a.setContent(html_05e30b5d6a913485eb911804978509cd);
+            
+        
+
+        marker_0f651bf95da28ff5b02c78f7bd616550.bindPopup(popup_086b46a263d1065b248294764f30999a)
+        ;
+
+        
+    
+    
+                marker_0f651bf95da28ff5b02c78f7bd616550.setIcon(icon_ecd4757fbd8638a2b3a4870bc67f30bc);
+            
+    
+            var marker_6f39889300d5a52d718f92a50c087a55 = L.marker(
+                [30.3873889, -91.0649422],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_c7c25f9f904fd0d12b2dac6def9a89b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84ecf03dce5d9accbc49df5a27575d0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34e815baead63b2ef8748daf54afa97d = $(`<div id="html_34e815baead63b2ef8748daf54afa97d" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_84ecf03dce5d9accbc49df5a27575d0e.setContent(html_34e815baead63b2ef8748daf54afa97d);
+            
+        
+
+        marker_6f39889300d5a52d718f92a50c087a55.bindPopup(popup_84ecf03dce5d9accbc49df5a27575d0e)
+        ;
+
+        
+    
+    
+                marker_6f39889300d5a52d718f92a50c087a55.setIcon(icon_c7c25f9f904fd0d12b2dac6def9a89b9);
+            
+    
+            var marker_59ccc58db066cb39711a74e218616289 = L.marker(
+                [30.1589988, -92.0427405],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_5d3ac99d8d137f8f6f6dca48ec17f269 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a0614afa604e60faeaaaff060af85ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84f9eff9377e90eb13458ca797929166 = $(`<div id="html_84f9eff9377e90eb13458ca797929166" style="width: 100.0%; height: 100.0%;">Gym: Bright Idea Fitness</div>`)[0];
+                popup_1a0614afa604e60faeaaaff060af85ed.setContent(html_84f9eff9377e90eb13458ca797929166);
+            
+        
+
+        marker_59ccc58db066cb39711a74e218616289.bindPopup(popup_1a0614afa604e60faeaaaff060af85ed)
+        ;
+
+        
+    
+    
+                marker_59ccc58db066cb39711a74e218616289.setIcon(icon_5d3ac99d8d137f8f6f6dca48ec17f269);
+            
+    
+            var marker_473b0be7709c900a21d33216027bf6b7 = L.marker(
+                [30.1056236, -92.1241835],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_195a5b61d2e46c3bfdff54169ab2151a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f11b73aee01664f9fe180920e90da12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56b255c36729980793a40a856ced3cfa = $(`<div id="html_56b255c36729980793a40a856ced3cfa" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_3f11b73aee01664f9fe180920e90da12.setContent(html_56b255c36729980793a40a856ced3cfa);
+            
+        
+
+        marker_473b0be7709c900a21d33216027bf6b7.bindPopup(popup_3f11b73aee01664f9fe180920e90da12)
+        ;
+
+        
+    
+    
+                marker_473b0be7709c900a21d33216027bf6b7.setIcon(icon_195a5b61d2e46c3bfdff54169ab2151a);
+            
+    
+            var marker_7bd2cc93eed55c3b3b8825097f1fbd35 = L.marker(
+                [30.3236274, -90.9286289],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ae77094e575bb7c7080c5d685db8e178 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a6c8a88b56d085f42a3ac31d3ed65ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac7a1627296fdbadbd3eea1e52bb0282 = $(`<div id="html_ac7a1627296fdbadbd3eea1e52bb0282" style="width: 100.0%; height: 100.0%;">Gym: Snap Fitness</div>`)[0];
+                popup_9a6c8a88b56d085f42a3ac31d3ed65ae.setContent(html_ac7a1627296fdbadbd3eea1e52bb0282);
+            
+        
+
+        marker_7bd2cc93eed55c3b3b8825097f1fbd35.bindPopup(popup_9a6c8a88b56d085f42a3ac31d3ed65ae)
+        ;
+
+        
+    
+    
+                marker_7bd2cc93eed55c3b3b8825097f1fbd35.setIcon(icon_ae77094e575bb7c7080c5d685db8e178);
+            
+    
+            var marker_fcecdb00c1f4f227c3cd14f1ecad2309 = L.marker(
+                [29.6137136, -90.7518809],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_fe12a543d3a53825eee68f66bca160ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a24dd8bf007c00aee612455e594e4182 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47167d2f5f428e72e177a6f5bfa24e0c = $(`<div id="html_47167d2f5f428e72e177a6f5bfa24e0c" style="width: 100.0%; height: 100.0%;">Gym: Fitness Frenzy</div>`)[0];
+                popup_a24dd8bf007c00aee612455e594e4182.setContent(html_47167d2f5f428e72e177a6f5bfa24e0c);
+            
+        
+
+        marker_fcecdb00c1f4f227c3cd14f1ecad2309.bindPopup(popup_a24dd8bf007c00aee612455e594e4182)
+        ;
+
+        
+    
+    
+                marker_fcecdb00c1f4f227c3cd14f1ecad2309.setIcon(icon_fe12a543d3a53825eee68f66bca160ac);
+            
+    
+            var marker_609c4d0d785c96547ba4929ac3b7d31e = L.marker(
+                [29.9232347, -90.0878836],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_cea8584ed37bc89114e4e274bf911b2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd6e9dc08e36dd8d7ad9397827773f0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_145dad9bbc831e4a33bbe9273a7587a1 = $(`<div id="html_145dad9bbc831e4a33bbe9273a7587a1" style="width: 100.0%; height: 100.0%;">Gym: F45 Training</div>`)[0];
+                popup_dd6e9dc08e36dd8d7ad9397827773f0e.setContent(html_145dad9bbc831e4a33bbe9273a7587a1);
+            
+        
+
+        marker_609c4d0d785c96547ba4929ac3b7d31e.bindPopup(popup_dd6e9dc08e36dd8d7ad9397827773f0e)
+        ;
+
+        
+    
+    
+                marker_609c4d0d785c96547ba4929ac3b7d31e.setIcon(icon_cea8584ed37bc89114e4e274bf911b2f);
+            
+    
+            var marker_a80b4e25e5851f0d413d9d54b24e13bc = L.marker(
+                [29.9397427, -90.0799834],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_624f854dce2527152be9c86489d9b0dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a2e9a413e942da160d3341cb6321bd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bac8fd8281831473b9e84e37a485cb3 = $(`<div id="html_8bac8fd8281831473b9e84e37a485cb3" style="width: 100.0%; height: 100.0%;">Gym: Friday Night Fights Gym/HQ</div>`)[0];
+                popup_8a2e9a413e942da160d3341cb6321bd7.setContent(html_8bac8fd8281831473b9e84e37a485cb3);
+            
+        
+
+        marker_a80b4e25e5851f0d413d9d54b24e13bc.bindPopup(popup_8a2e9a413e942da160d3341cb6321bd7)
+        ;
+
+        
+    
+    
+                marker_a80b4e25e5851f0d413d9d54b24e13bc.setIcon(icon_624f854dce2527152be9c86489d9b0dd);
+            
+    
+            var marker_49a0fb7654e8055070567605e5bf2213 = L.marker(
+                [30.0209335, -90.1118267],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_1ff3ce6902622545fd20ba23649e83f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4606905e9c982469319d7e4e3dbb9e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ef814aa5db806afd30ec863324fad3d = $(`<div id="html_5ef814aa5db806afd30ec863324fad3d" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_c4606905e9c982469319d7e4e3dbb9e1.setContent(html_5ef814aa5db806afd30ec863324fad3d);
+            
+        
+
+        marker_49a0fb7654e8055070567605e5bf2213.bindPopup(popup_c4606905e9c982469319d7e4e3dbb9e1)
+        ;
+
+        
+    
+    
+                marker_49a0fb7654e8055070567605e5bf2213.setIcon(icon_1ff3ce6902622545fd20ba23649e83f9);
+            
+    
+            var marker_8faaa20b6a7b652c5f04c330277c2304 = L.marker(
+                [30.0015582, -90.1239808],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_41fc9f19f9414ec93083503701ee7e85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6966e18e7d16250a5f48230c12247dab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aca4915c7ffb65c9908764ed84a506b = $(`<div id="html_2aca4915c7ffb65c9908764ed84a506b" style="width: 100.0%; height: 100.0%;">Gym: Ochsner Fitness</div>`)[0];
+                popup_6966e18e7d16250a5f48230c12247dab.setContent(html_2aca4915c7ffb65c9908764ed84a506b);
+            
+        
+
+        marker_8faaa20b6a7b652c5f04c330277c2304.bindPopup(popup_6966e18e7d16250a5f48230c12247dab)
+        ;
+
+        
+    
+    
+                marker_8faaa20b6a7b652c5f04c330277c2304.setIcon(icon_41fc9f19f9414ec93083503701ee7e85);
+            
+    
+            var marker_9bc22e20dcb2e840ea63afe536c6021e = L.marker(
+                [32.5427549, -92.6374243],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_69f90c267493bef16ef88807a723f9fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6426485ff02a04a55e73c604aa3f5ecb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14f359fbae4663d21e9078957d98f964 = $(`<div id="html_14f359fbae4663d21e9078957d98f964" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_6426485ff02a04a55e73c604aa3f5ecb.setContent(html_14f359fbae4663d21e9078957d98f964);
+            
+        
+
+        marker_9bc22e20dcb2e840ea63afe536c6021e.bindPopup(popup_6426485ff02a04a55e73c604aa3f5ecb)
+        ;
+
+        
+    
+    
+                marker_9bc22e20dcb2e840ea63afe536c6021e.setIcon(icon_69f90c267493bef16ef88807a723f9fa);
+            
+    
+            var marker_69ccdec887853ee4fa259badeaa6bc1e = L.marker(
+                [30.2294121, -93.2163816],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ce20025d60acc2b5b42b8d708eab3f33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47b3571e27cfb2e446ca072e82030624 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_065b0b5aa960b3450d72c24beb506793 = $(`<div id="html_065b0b5aa960b3450d72c24beb506793" style="width: 100.0%; height: 100.0%;">Gym: Mantra Yoga Center</div>`)[0];
+                popup_47b3571e27cfb2e446ca072e82030624.setContent(html_065b0b5aa960b3450d72c24beb506793);
+            
+        
+
+        marker_69ccdec887853ee4fa259badeaa6bc1e.bindPopup(popup_47b3571e27cfb2e446ca072e82030624)
+        ;
+
+        
+    
+    
+                marker_69ccdec887853ee4fa259badeaa6bc1e.setIcon(icon_ce20025d60acc2b5b42b8d708eab3f33);
+            
+    
+            var marker_e066d9678bc62081f56c1c4c0b353e11 = L.marker(
+                [30.1722701, -93.2498685],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_99f027bfea5a42be2f03a54c41379f1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4abc811db0abfa590cbcc664eb73cbd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f61675b4b76b120171f62421668f642 = $(`<div id="html_6f61675b4b76b120171f62421668f642" style="width: 100.0%; height: 100.0%;">Gym: Mayweather</div>`)[0];
+                popup_4abc811db0abfa590cbcc664eb73cbd7.setContent(html_6f61675b4b76b120171f62421668f642);
+            
+        
+
+        marker_e066d9678bc62081f56c1c4c0b353e11.bindPopup(popup_4abc811db0abfa590cbcc664eb73cbd7)
+        ;
+
+        
+    
+    
+                marker_e066d9678bc62081f56c1c4c0b353e11.setIcon(icon_99f027bfea5a42be2f03a54c41379f1d);
+            
+    
+            var marker_41ff0e3b3472b01e7ee04c816ce8af6e = L.marker(
+                [30.1713049, -93.2505118],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_501b2e618e2b142f577dd4d5ab7b026c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_285c1f621c5ec42b289d91c2fed3e2f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5e4d6deedcb34786677b83cd57e654a = $(`<div id="html_a5e4d6deedcb34786677b83cd57e654a" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_285c1f621c5ec42b289d91c2fed3e2f7.setContent(html_a5e4d6deedcb34786677b83cd57e654a);
+            
+        
+
+        marker_41ff0e3b3472b01e7ee04c816ce8af6e.bindPopup(popup_285c1f621c5ec42b289d91c2fed3e2f7)
+        ;
+
+        
+    
+    
+                marker_41ff0e3b3472b01e7ee04c816ce8af6e.setIcon(icon_501b2e618e2b142f577dd4d5ab7b026c);
+            
+    
+            var marker_619fa009bfffb0555a8bf21e17dea646 = L.marker(
+                [30.1848157, -93.2212431],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_19de4c4dcb736354d8f95deeebaed92d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bbb029adfcd6f3f386331c0c1d953f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce7c2e4dcb775e3c7daae7dcffd654d6 = $(`<div id="html_ce7c2e4dcb775e3c7daae7dcffd654d6" style="width: 100.0%; height: 100.0%;">Gym: Planet Fitness</div>`)[0];
+                popup_9bbb029adfcd6f3f386331c0c1d953f3.setContent(html_ce7c2e4dcb775e3c7daae7dcffd654d6);
+            
+        
+
+        marker_619fa009bfffb0555a8bf21e17dea646.bindPopup(popup_9bbb029adfcd6f3f386331c0c1d953f3)
+        ;
+
+        
+    
+    
+                marker_619fa009bfffb0555a8bf21e17dea646.setIcon(icon_19de4c4dcb736354d8f95deeebaed92d);
+            
+    
+            var marker_4473081d66838538570372985c982e1a = L.marker(
+                [30.1752079, -93.2202448],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_6727fdf6e10c2bf4200e6ade3e0cf8ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_843d714292e7b7dfc302bea1b4eaa7ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1accef8ae88b9b9b2a2dab8a65f31729 = $(`<div id="html_1accef8ae88b9b9b2a2dab8a65f31729" style="width: 100.0%; height: 100.0%;">Gym: CLUB4 Fitness</div>`)[0];
+                popup_843d714292e7b7dfc302bea1b4eaa7ec.setContent(html_1accef8ae88b9b9b2a2dab8a65f31729);
+            
+        
+
+        marker_4473081d66838538570372985c982e1a.bindPopup(popup_843d714292e7b7dfc302bea1b4eaa7ec)
+        ;
+
+        
+    
+    
+                marker_4473081d66838538570372985c982e1a.setIcon(icon_6727fdf6e10c2bf4200e6ade3e0cf8ad);
+            
+    
+            var marker_12058641fd479ea484b05a0ae6f42cad = L.marker(
+                [30.4046323, -91.0157062],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_48b4b51dc905d1b4709114822dad6c6a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afd0b5ef06511b51fae6979292c2376d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc6a09f711af92d59cd109cb3b272d69 = $(`<div id="html_fc6a09f711af92d59cd109cb3b272d69" style="width: 100.0%; height: 100.0%;">Gym: Champion Fitness</div>`)[0];
+                popup_afd0b5ef06511b51fae6979292c2376d.setContent(html_fc6a09f711af92d59cd109cb3b272d69);
+            
+        
+
+        marker_12058641fd479ea484b05a0ae6f42cad.bindPopup(popup_afd0b5ef06511b51fae6979292c2376d)
+        ;
+
+        
+    
+    
+                marker_12058641fd479ea484b05a0ae6f42cad.setIcon(icon_48b4b51dc905d1b4709114822dad6c6a);
+            
+    
+            var marker_7a619c23883ef2cfaac723ef41b8547b = L.marker(
+                [32.4782412, -93.7156858],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_3c00c6ee19cf7561ff7e31c8c6a5364a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed00215775ff08a8b6ea2dbf4af458fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ddf3fc5083dc225fe166fbec30627f0 = $(`<div id="html_6ddf3fc5083dc225fe166fbec30627f0" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_ed00215775ff08a8b6ea2dbf4af458fb.setContent(html_6ddf3fc5083dc225fe166fbec30627f0);
+            
+        
+
+        marker_7a619c23883ef2cfaac723ef41b8547b.bindPopup(popup_ed00215775ff08a8b6ea2dbf4af458fb)
+        ;
+
+        
+    
+    
+                marker_7a619c23883ef2cfaac723ef41b8547b.setIcon(icon_3c00c6ee19cf7561ff7e31c8c6a5364a);
+            
+    
+            var marker_5c92da4b30b5762bf5caf10d22d54c77 = L.marker(
+                [30.224493, -92.3783205],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_3075a0e5888d1d556072e23f068929e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_daaed2a4f2399dab1f165ab710d297a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d94a795d334905ce352c0d5faede107 = $(`<div id="html_0d94a795d334905ce352c0d5faede107" style="width: 100.0%; height: 100.0%;">Gym: Anytime Fitness</div>`)[0];
+                popup_daaed2a4f2399dab1f165ab710d297a1.setContent(html_0d94a795d334905ce352c0d5faede107);
+            
+        
+
+        marker_5c92da4b30b5762bf5caf10d22d54c77.bindPopup(popup_daaed2a4f2399dab1f165ab710d297a1)
+        ;
+
+        
+    
+    
+                marker_5c92da4b30b5762bf5caf10d22d54c77.setIcon(icon_3075a0e5888d1d556072e23f068929e2);
+            
+    
+            var marker_0a51548abba00ad7f8479537069d46ea = L.marker(
+                [30.4693257, -90.917871],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_160b4e202a7ad858fae2fb49a63abd82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61f86530fcd0dfcb01830ec9493e86ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19102a6fc6d82d3279d222ad047fb681 = $(`<div id="html_19102a6fc6d82d3279d222ad047fb681" style="width: 100.0%; height: 100.0%;">Gym: Regymen Fitness</div>`)[0];
+                popup_61f86530fcd0dfcb01830ec9493e86ae.setContent(html_19102a6fc6d82d3279d222ad047fb681);
+            
+        
+
+        marker_0a51548abba00ad7f8479537069d46ea.bindPopup(popup_61f86530fcd0dfcb01830ec9493e86ae)
+        ;
+
+        
+    
+    
+                marker_0a51548abba00ad7f8479537069d46ea.setIcon(icon_160b4e202a7ad858fae2fb49a63abd82);
+            
+    
+            var marker_881d79546a70ff415268f2518b6072f3 = L.marker(
+                [30.4440308, -91.1720138],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_edbb566d07d63883162e9506195de8ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "dumbbell",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_872605b1db286bf01ae508a236faba2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd1f43cf4d269d55fd213ad3a5a670be = $(`<div id="html_fd1f43cf4d269d55fd213ad3a5a670be" style="width: 100.0%; height: 100.0%;">Gym: Excel Wellness Center</div>`)[0];
+                popup_872605b1db286bf01ae508a236faba2d.setContent(html_fd1f43cf4d269d55fd213ad3a5a670be);
+            
+        
+
+        marker_881d79546a70ff415268f2518b6072f3.bindPopup(popup_872605b1db286bf01ae508a236faba2d)
+        ;
+
+        
+    
+    
+                marker_881d79546a70ff415268f2518b6072f3.setIcon(icon_edbb566d07d63883162e9506195de8ec);
+            
+    
+            var marker_908cbbe52c09a8f1962ee3fe8d2bac42 = L.marker(
+                [30.3088874, -89.8262857],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_7d719cc55d57725b3881d5147f13c3cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a57d2a2c92dcd01224a6b09a13669c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12e27686b3dcdc1169657e6906468121 = $(`<div id="html_12e27686b3dcdc1169657e6906468121" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Shoppe</div>`)[0];
+                popup_3a57d2a2c92dcd01224a6b09a13669c0.setContent(html_12e27686b3dcdc1169657e6906468121);
+            
+        
+
+        marker_908cbbe52c09a8f1962ee3fe8d2bac42.bindPopup(popup_3a57d2a2c92dcd01224a6b09a13669c0)
+        ;
+
+        
+    
+    
+                marker_908cbbe52c09a8f1962ee3fe8d2bac42.setIcon(icon_7d719cc55d57725b3881d5147f13c3cb);
+            
+    
+            var marker_564f9eb4e11a006ffd2e578c40aea5c4 = L.marker(
+                [29.9457198, -90.0621971],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_24ec6da1d9e76808f878fd94c69a6377 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e01ccb7291db19be2690df571c0d85c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db35eb599d87bc7f8e003c9af976f356 = $(`<div id="html_db35eb599d87bc7f8e003c9af976f356" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_e01ccb7291db19be2690df571c0d85c3.setContent(html_db35eb599d87bc7f8e003c9af976f356);
+            
+        
+
+        marker_564f9eb4e11a006ffd2e578c40aea5c4.bindPopup(popup_e01ccb7291db19be2690df571c0d85c3)
+        ;
+
+        
+    
+    
+                marker_564f9eb4e11a006ffd2e578c40aea5c4.setIcon(icon_24ec6da1d9e76808f878fd94c69a6377);
+            
+    
+            var marker_1b9ab255a718c262c396920e0ef61c92 = L.marker(
+                [30.3224747, -92.0301016],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_89eb62bb07fdc354b6f89824c1c0c2a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bf2882feec62edb4415e4a8e97ed571 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb7a46ef15ed53635f55abb4e9f83609 = $(`<div id="html_fb7a46ef15ed53635f55abb4e9f83609" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_9bf2882feec62edb4415e4a8e97ed571.setContent(html_fb7a46ef15ed53635f55abb4e9f83609);
+            
+        
+
+        marker_1b9ab255a718c262c396920e0ef61c92.bindPopup(popup_9bf2882feec62edb4415e4a8e97ed571)
+        ;
+
+        
+    
+    
+                marker_1b9ab255a718c262c396920e0ef61c92.setIcon(icon_89eb62bb07fdc354b6f89824c1c0c2a8);
+            
+    
+            var marker_4a621c7f77765e13e69014219a054319 = L.marker(
+                [30.0071192, -90.2264114],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_48729d402f0e21332a0dab44e70f2dc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0916d6aa170a623a47cd5497607726d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb8b31785447dd8623c7e139a804da4f = $(`<div id="html_fb8b31785447dd8623c7e139a804da4f" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_0916d6aa170a623a47cd5497607726d0.setContent(html_fb8b31785447dd8623c7e139a804da4f);
+            
+        
+
+        marker_4a621c7f77765e13e69014219a054319.bindPopup(popup_0916d6aa170a623a47cd5497607726d0)
+        ;
+
+        
+    
+    
+                marker_4a621c7f77765e13e69014219a054319.setIcon(icon_48729d402f0e21332a0dab44e70f2dc8);
+            
+    
+            var marker_8b39bc621c235541b0cad992e3a52fee = L.marker(
+                [30.0047868, -90.1578286],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_bfef7d17ce2d521119aa3f2e52324fee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd1c234bd847441bcbae7ed45dcd4343 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eda8a7de78e8ced5bf6e928cc10c58fe = $(`<div id="html_eda8a7de78e8ced5bf6e928cc10c58fe" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_cd1c234bd847441bcbae7ed45dcd4343.setContent(html_eda8a7de78e8ced5bf6e928cc10c58fe);
+            
+        
+
+        marker_8b39bc621c235541b0cad992e3a52fee.bindPopup(popup_cd1c234bd847441bcbae7ed45dcd4343)
+        ;
+
+        
+    
+    
+                marker_8b39bc621c235541b0cad992e3a52fee.setIcon(icon_bfef7d17ce2d521119aa3f2e52324fee);
+            
+    
+            var marker_5682bfca12d8281b7f4d53663b920817 = L.marker(
+                [30.1978357, -93.2253069],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_5d632e687c6d5227b17aa2c40335eae6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ec459d1be1e73cf12238fa88b581df8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5650f7a216162908b2e6cdd3de0b447a = $(`<div id="html_5650f7a216162908b2e6cdd3de0b447a" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Shoppe</div>`)[0];
+                popup_5ec459d1be1e73cf12238fa88b581df8.setContent(html_5650f7a216162908b2e6cdd3de0b447a);
+            
+        
+
+        marker_5682bfca12d8281b7f4d53663b920817.bindPopup(popup_5ec459d1be1e73cf12238fa88b581df8)
+        ;
+
+        
+    
+    
+                marker_5682bfca12d8281b7f4d53663b920817.setIcon(icon_5d632e687c6d5227b17aa2c40335eae6);
+            
+    
+            var marker_f8e1fb9437b058ec242b5ff51310e840 = L.marker(
+                [29.9615511, -90.1849672],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_21fbdb548577eff995d0b3111b782b6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f43b9d7a3e94882318b19a064af67f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86c83405e8ae91fba040c414f509f9ef = $(`<div id="html_86c83405e8ae91fba040c414f509f9ef" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_1f43b9d7a3e94882318b19a064af67f9.setContent(html_86c83405e8ae91fba040c414f509f9ef);
+            
+        
+
+        marker_f8e1fb9437b058ec242b5ff51310e840.bindPopup(popup_1f43b9d7a3e94882318b19a064af67f9)
+        ;
+
+        
+    
+    
+                marker_f8e1fb9437b058ec242b5ff51310e840.setIcon(icon_21fbdb548577eff995d0b3111b782b6d);
+            
+    
+            var marker_4e9f33624941b791e3b0e963280e9947 = L.marker(
+                [30.0066211, -90.2124265],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d003ad4e79bdad9a76b8e73b41008837 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28b164dd89f7450e2838c77709775f35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2257a1302f76c2682c7034de20314012 = $(`<div id="html_2257a1302f76c2682c7034de20314012" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Store</div>`)[0];
+                popup_28b164dd89f7450e2838c77709775f35.setContent(html_2257a1302f76c2682c7034de20314012);
+            
+        
+
+        marker_4e9f33624941b791e3b0e963280e9947.bindPopup(popup_28b164dd89f7450e2838c77709775f35)
+        ;
+
+        
+    
+    
+                marker_4e9f33624941b791e3b0e963280e9947.setIcon(icon_d003ad4e79bdad9a76b8e73b41008837);
+            
+    
+            var marker_2904b196e5e7179a9bd21438a641b25c = L.marker(
+                [29.9979169, -90.218632],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ce7c03aa5067dcbdb542a8ed660a9fe8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c037749f68e0889611270a68e59daa76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_618e24ef234494653ad7446ba2c1ef86 = $(`<div id="html_618e24ef234494653ad7446ba2c1ef86" style="width: 100.0%; height: 100.0%;">Store: Eastbank Nutrition</div>`)[0];
+                popup_c037749f68e0889611270a68e59daa76.setContent(html_618e24ef234494653ad7446ba2c1ef86);
+            
+        
+
+        marker_2904b196e5e7179a9bd21438a641b25c.bindPopup(popup_c037749f68e0889611270a68e59daa76)
+        ;
+
+        
+    
+    
+                marker_2904b196e5e7179a9bd21438a641b25c.setIcon(icon_ce7c03aa5067dcbdb542a8ed660a9fe8);
+            
+    
+            var marker_c7255335b193c4b948d7fa77f124d31f = L.marker(
+                [30.176079, -92.0773184],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ca4943f496ac817ceb2a17ba7c422c2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a58ff8f3c4db273032ba5f1b26d81cf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cc7f98eae7b4f88e5bc0dd96e3febeb = $(`<div id="html_6cc7f98eae7b4f88e5bc0dd96e3febeb" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Shoppe</div>`)[0];
+                popup_a58ff8f3c4db273032ba5f1b26d81cf9.setContent(html_6cc7f98eae7b4f88e5bc0dd96e3febeb);
+            
+        
+
+        marker_c7255335b193c4b948d7fa77f124d31f.bindPopup(popup_a58ff8f3c4db273032ba5f1b26d81cf9)
+        ;
+
+        
+    
+    
+                marker_c7255335b193c4b948d7fa77f124d31f.setIcon(icon_ca4943f496ac817ceb2a17ba7c422c2f);
+            
+    
+            var marker_959e7249c2564badcc6a73d7c272150c = L.marker(
+                [31.2776131, -92.4616173],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_ae736afc877a8ed186e140f51b49775e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4e556d8704c3356c07fd19e3af61772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_077abff33c5840a626cbd3ceac7e56e8 = $(`<div id="html_077abff33c5840a626cbd3ceac7e56e8" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_a4e556d8704c3356c07fd19e3af61772.setContent(html_077abff33c5840a626cbd3ceac7e56e8);
+            
+        
+
+        marker_959e7249c2564badcc6a73d7c272150c.bindPopup(popup_a4e556d8704c3356c07fd19e3af61772)
+        ;
+
+        
+    
+    
+                marker_959e7249c2564badcc6a73d7c272150c.setIcon(icon_ae736afc877a8ed186e140f51b49775e);
+            
+    
+            var marker_e5ba77eb79abdfe87c18c99bc80e92d3 = L.marker(
+                [32.5238462, -92.1036165],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_603cbe122d3b68cf630cf8ee6b6cd6b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24b86b282ff29ce3a62cc5b6caad1a02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e14f9c17459669f69ca4120ba217c6a7 = $(`<div id="html_e14f9c17459669f69ca4120ba217c6a7" style="width: 100.0%; height: 100.0%;">Store: Heavyweight Supplements</div>`)[0];
+                popup_24b86b282ff29ce3a62cc5b6caad1a02.setContent(html_e14f9c17459669f69ca4120ba217c6a7);
+            
+        
+
+        marker_e5ba77eb79abdfe87c18c99bc80e92d3.bindPopup(popup_24b86b282ff29ce3a62cc5b6caad1a02)
+        ;
+
+        
+    
+    
+                marker_e5ba77eb79abdfe87c18c99bc80e92d3.setIcon(icon_603cbe122d3b68cf630cf8ee6b6cd6b8);
+            
+    
+            var marker_d48ebe5e0c91ae0480c1e44471f92222 = L.marker(
+                [30.3873588, -90.0811847],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_010de8f93f498dd8c49f202370c63569 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1c80159ce88c514ea4b5c8c75077be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5249784e39ed7639db4df9033996b608 = $(`<div id="html_5249784e39ed7639db4df9033996b608" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_f1c80159ce88c514ea4b5c8c75077be3.setContent(html_5249784e39ed7639db4df9033996b608);
+            
+        
+
+        marker_d48ebe5e0c91ae0480c1e44471f92222.bindPopup(popup_f1c80159ce88c514ea4b5c8c75077be3)
+        ;
+
+        
+    
+    
+                marker_d48ebe5e0c91ae0480c1e44471f92222.setIcon(icon_010de8f93f498dd8c49f202370c63569);
+            
+    
+            var marker_484d493cecc15ade5c7e7e5bb33710d6 = L.marker(
+                [30.2648022, -91.9936873],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_deef44cd4efa9dafc7fd7476f74e9697 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f478e7420ffba2103a0facb79d62449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1274bada6e76c13e0ecbb5f570628bf3 = $(`<div id="html_1274bada6e76c13e0ecbb5f570628bf3" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_6f478e7420ffba2103a0facb79d62449.setContent(html_1274bada6e76c13e0ecbb5f570628bf3);
+            
+        
+
+        marker_484d493cecc15ade5c7e7e5bb33710d6.bindPopup(popup_6f478e7420ffba2103a0facb79d62449)
+        ;
+
+        
+    
+    
+                marker_484d493cecc15ade5c7e7e5bb33710d6.setIcon(icon_deef44cd4efa9dafc7fd7476f74e9697);
+            
+    
+            var marker_e6ae1de4ccb7240f75f6671e81442ab4 = L.marker(
+                [31.0768435, -93.272404],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_0c27fb31c966bbe5452b12f8f289c45b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a0a4ac89e73f3ef624df7f5b5dc49c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fcd076da7829692720cf6778d8bd9e8 = $(`<div id="html_6fcd076da7829692720cf6778d8bd9e8" style="width: 100.0%; height: 100.0%;">Store: Cajun Natural Alternatives</div>`)[0];
+                popup_3a0a4ac89e73f3ef624df7f5b5dc49c3.setContent(html_6fcd076da7829692720cf6778d8bd9e8);
+            
+        
+
+        marker_e6ae1de4ccb7240f75f6671e81442ab4.bindPopup(popup_3a0a4ac89e73f3ef624df7f5b5dc49c3)
+        ;
+
+        
+    
+    
+                marker_e6ae1de4ccb7240f75f6671e81442ab4.setIcon(icon_0c27fb31c966bbe5452b12f8f289c45b);
+            
+    
+            var marker_4bb35b6fb71863493d95df3c1861b4de = L.marker(
+                [30.3220744, -90.937348],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_8ac4412d5801018f998934e34a3165dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbefc684245e73c3941ed00b292fea16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a06efbff28b0c088e78c0f5d1c78438a = $(`<div id="html_a06efbff28b0c088e78c0f5d1c78438a" style="width: 100.0%; height: 100.0%;">Store: Galvez Nutrition</div>`)[0];
+                popup_cbefc684245e73c3941ed00b292fea16.setContent(html_a06efbff28b0c088e78c0f5d1c78438a);
+            
+        
+
+        marker_4bb35b6fb71863493d95df3c1861b4de.bindPopup(popup_cbefc684245e73c3941ed00b292fea16)
+        ;
+
+        
+    
+    
+                marker_4bb35b6fb71863493d95df3c1861b4de.setIcon(icon_8ac4412d5801018f998934e34a3165dc);
+            
+    
+            var marker_d329a4b3e1e867fd321032c2394c1878 = L.marker(
+                [32.4412423, -93.7164714],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_b08dfc2c2dd07959de2ec041ec8d8a05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_963f0bece99af0c598984e141f382be1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23536ef653c5418dcd2eb925ad4ad445 = $(`<div id="html_23536ef653c5418dcd2eb925ad4ad445" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_963f0bece99af0c598984e141f382be1.setContent(html_23536ef653c5418dcd2eb925ad4ad445);
+            
+        
+
+        marker_d329a4b3e1e867fd321032c2394c1878.bindPopup(popup_963f0bece99af0c598984e141f382be1)
+        ;
+
+        
+    
+    
+                marker_d329a4b3e1e867fd321032c2394c1878.setIcon(icon_b08dfc2c2dd07959de2ec041ec8d8a05);
+            
+    
+            var marker_3cc90cb977ae4a58aa2f99eb96bdc4a1 = L.marker(
+                [30.1941471, -93.2485713],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_4f30ce85121cd391cd38e2ed275d07e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6a64be270225b68dcc7666d51ce1a93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9def4386431b352f6f75360ca6e2035c = $(`<div id="html_9def4386431b352f6f75360ca6e2035c" style="width: 100.0%; height: 100.0%;">Store: 5 Star Nutrition</div>`)[0];
+                popup_d6a64be270225b68dcc7666d51ce1a93.setContent(html_9def4386431b352f6f75360ca6e2035c);
+            
+        
+
+        marker_3cc90cb977ae4a58aa2f99eb96bdc4a1.bindPopup(popup_d6a64be270225b68dcc7666d51ce1a93)
+        ;
+
+        
+    
+    
+                marker_3cc90cb977ae4a58aa2f99eb96bdc4a1.setIcon(icon_4f30ce85121cd391cd38e2ed275d07e6);
+            
+    
+            var marker_cbd08887f6521c8e62f05cee8b56984c = L.marker(
+                [29.9840205, -91.8211486],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_e524aacf4911aeda92e57fb05e04552f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_083ec15baa688bf8f0787dca64e8e001 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87fe119a49399437487380b0bc81e849 = $(`<div id="html_87fe119a49399437487380b0bc81e849" style="width: 100.0%; height: 100.0%;">Store: GNC</div>`)[0];
+                popup_083ec15baa688bf8f0787dca64e8e001.setContent(html_87fe119a49399437487380b0bc81e849);
+            
+        
+
+        marker_cbd08887f6521c8e62f05cee8b56984c.bindPopup(popup_083ec15baa688bf8f0787dca64e8e001)
+        ;
+
+        
+    
+    
+                marker_cbd08887f6521c8e62f05cee8b56984c.setIcon(icon_e524aacf4911aeda92e57fb05e04552f);
+            
+    
+            var marker_5fa8e0a7b6110f7a8d15236d4e5bfbbe = L.marker(
+                [30.0051359, -90.1752391],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_31183043fe50d882df5555ec09bd85a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1751243585e2dec475013743c8852b03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_078ce5b87e84bf5cf9e7d9297ee682cc = $(`<div id="html_078ce5b87e84bf5cf9e7d9297ee682cc" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Shoppe</div>`)[0];
+                popup_1751243585e2dec475013743c8852b03.setContent(html_078ce5b87e84bf5cf9e7d9297ee682cc);
+            
+        
+
+        marker_5fa8e0a7b6110f7a8d15236d4e5bfbbe.bindPopup(popup_1751243585e2dec475013743c8852b03)
+        ;
+
+        
+    
+    
+                marker_5fa8e0a7b6110f7a8d15236d4e5bfbbe.setIcon(icon_31183043fe50d882df5555ec09bd85a0);
+            
+    
+            var marker_09a47eb2cee996da480d1a8e932786ec = L.marker(
+                [30.3787965, -91.065988],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_d7c0035d24ccf0839c5d115e4028bf9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a294cbc723dcf08b90f8a90e7cb016cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24b9cf2a498cc7fa0d2c41f4e6b82e42 = $(`<div id="html_24b9cf2a498cc7fa0d2c41f4e6b82e42" style="width: 100.0%; height: 100.0%;">Store: The Vitamin Shoppe</div>`)[0];
+                popup_a294cbc723dcf08b90f8a90e7cb016cc.setContent(html_24b9cf2a498cc7fa0d2c41f4e6b82e42);
+            
+        
+
+        marker_09a47eb2cee996da480d1a8e932786ec.bindPopup(popup_a294cbc723dcf08b90f8a90e7cb016cc)
+        ;
+
+        
+    
+    
+                marker_09a47eb2cee996da480d1a8e932786ec.setIcon(icon_d7c0035d24ccf0839c5d115e4028bf9f);
+            
+    
+            var marker_cb72ee6cbc511bc58663f406d62ac002 = L.marker(
+                [32.5341276, -93.7060628],
+                {
+}
+            ).addTo(map_eff608ade257f61b1d2897cc3cafae5c);
+        
+    
+            var icon_454d54c4291be1ba6cabdc707a651c92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13e82836a1b9614076750ef6139d4bc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0ea7e865d20d131390bc59099bbb826 = $(`<div id="html_b0ea7e865d20d131390bc59099bbb826" style="width: 100.0%; height: 100.0%;">Store: Ironworks Sports Nutrition</div>`)[0];
+                popup_13e82836a1b9614076750ef6139d4bc9.setContent(html_b0ea7e865d20d131390bc59099bbb826);
+            
+        
+
+        marker_cb72ee6cbc511bc58663f406d62ac002.bindPopup(popup_13e82836a1b9614076750ef6139d4bc9)
+        ;
+
+        
+    
+    
+                marker_cb72ee6cbc511bc58663f406d62ac002.setIcon(icon_454d54c4291be1ba6cabdc707a651c92);
+            
+</script>
+</html>
